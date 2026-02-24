@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "method": "Full",
+        "target_disease": "Breast Invasive Carcinoma",
+        "focus_gene": "EGFR",
+        "combination": "Lapatinib + AZD9291",
+        "mechanism": "Synthetic Lethality through EGFR amplification and overexpression",
+        "rationale_type": "Inferred Similarity",
+        "supporting_evidence": "Lapatinib targets HER2-positive breast cancer by inhibiting the tyrosine kinase activity of EGFR [1]. AZD9291 is a third-generation EGFR inhibitor that has shown improved efficacy in non-small cell lung cancer [2]. The combination of Lapatinib and AZD9291 may increase the risk of overlapping toxicities such as dermatitis acneiform, diarrhoea, dry skin, dyspepsia, and hepatobiliary disease. However, further studies are needed to confirm the efficacy and safety of this combination. Mechanism inferred from drug properties; no direct clinical study found for this specific combination.",
+        "civic_urls": [],
+        "chembl_urls": [],
+        "trial_urls": [],
+        "reactome_urls": [],
+        "safety_score": 8,
+        "plausibility": "Moderate. The combination of Lapatinib and AZD9291 targets different pathways in EGFR amplification and overexpression, which is a common mechanism in Breast Invasive Carcinoma. However, the overlapping toxicities such as dermatitis acneiform, diarrhoea, dry skin, dyspepsia, and hepatobiliary disease may increase the risk of combination toxicity.",
+        "combination_toxicity_risk": "Moderate. Predicted based on individual profiles. The combination of Lapatinib and AZD9291 may increase the risk of overlapping toxicities such as dermatitis acneiform, diarrhoea, dry skin, dyspepsia, and hepatobiliary disease.",
+        "critique": "The combination of Lapatinib and AZD9291 targets different pathways in EGFR amplification and overexpression, which is a common mechanism in Breast Invasive Carcinoma. However, the overlapping toxicities may increase the risk of combination toxicity. Further studies are needed to confirm the efficacy and safety of this combination.",
+        "source_urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/32547705/",
+            "https://pubmed.ncbi.nlm.nih.gov/29103264/"
+        ],
+        "evidence_status": "Validated (Literature Exists)",
+        "ne_hits": 2,
+        "nc_hits": 0,
+        "is_novel_exact": false,
+        "is_novel_context": true,
+        "graph_evidence_score": 10.0,
+        "ranking_score": 9.0,
+        "verdict": "Caution",
+        "synergy": "No direct data in DrugComb database for this drug combination."
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "method": "Full",
+        "target_disease": "Breast Invasive Carcinoma",
+        "focus_gene": "EGFR",
+        "combination": "Afatinib + Palbociclib",
+        "mechanism": "Synthetic Lethality based on EGFR Overexpression and CDK4/6 inhibition",
+        "rationale_type": "Inferred Similarity",
+        "supporting_evidence": "Afatinib's mechanism of action: Afatinib is a tyrosine kinase inhibitor that targets EGFR [3]. Palbociclib's mechanism of action: Palbociclib is a CDK4/6 inhibitor that can prevent cell cycle progression [4]. Clinical trials for individual drugs: Afatinib has shown efficacy in non-small cell lung cancer and breast cancer patients with EGFR mutations [5]. Palbociclib has shown efficacy in hormone receptor-positive, HER2-negative breast cancer patients [6].",
+        "civic_urls": [
+            "https://civicdb.org/links/evidence/4872",
+            "https://civicdb.org/links/evidence/12398",
+            "https://civicdb.org/links/evidence/7800"
+        ],
+        "chembl_urls": [],
+        "trial_urls": [
+            "https://clinicaltrials.gov/study/NCT06257264",
+            "https://clinicaltrials.gov/study/NCT07137416",
+            "https://clinicaltrials.gov/study/NCT04486833"
+        ],
+        "reactome_urls": [
+            "https://reactome.org/content/detail/R-HSA-5637812",
+            "https://reactome.org/content/detail/R-HSA-9665348",
+            "https://reactome.org/content/detail/R-HSA-5637810"
+        ],
+        "safety_score": 8,
+        "plausibility": "Moderate. Reason: Afatinib is a tyrosine kinase inhibitor that targets EGFR, which is overexpressed in some breast cancer patients. Palbociclib is a CDK4/6 inhibitor that can prevent cell cycle progression. The combination of these two drugs may have synergistic effects in inhibiting tumor growth. However, the safety profile of Afatinib has been associated with skin and gastrointestinal toxicities [1].",
+        "combination_toxicity_risk": "Moderate. Reason: Predicted based on individual profiles. Afatinib's common side effects include acne pustular, alanine aminotransferase increased, aphthous stomatitis, aspartate aminotransferase increased, bladder pain, blood potassium decreased, body temperature increased, chapped skin, cheilitis, conjunctival hyperaemia, conjunctival irritation, conjunctivitis, connective tissue disorder, cystitis, cystitis noninfective, decreased appetite, dehydration, dermatitis, dermatitis acneiform, diarrhoea, diastolic dysfunction, disease progression, dry eye, dry skin, dysgeusia. Palbociclib's common side effects include neutropenia, leukopenia, anemia, thrombocytopenia, fatigue, nausea, diarrhea, mucositis, and infections [2]. The combination of these two drugs may increase the risk of gastrointestinal toxicities, such as diarrhoea, and skin toxicities, such as dermatitis acneiform.",
+        "critique": "The combination of Afatinib and Palbociclib is based on a synthetic lethality mechanism that targets EGFR overexpression and CDK4/6 inhibition. While the individual drugs have shown promise in clinical trials, the safety profile of this combination has not been extensively studied. Further research is needed to fully understand the potential benefits and risks of this combination.",
+        "source_urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/41514166/",
+            "https://pubmed.ncbi.nlm.nih.gov/40777020/",
+            "https://pubmed.ncbi.nlm.nih.gov/40301468/",
+            "https://pubmed.ncbi.nlm.nih.gov/39604668/",
+            "https://pubmed.ncbi.nlm.nih.gov/38751701/"
+        ],
+        "evidence_status": "Validated (Literature Exists)",
+        "ne_hits": 19,
+        "nc_hits": 0,
+        "is_novel_exact": false,
+        "is_novel_context": true,
+        "graph_evidence_score": 10.0,
+        "ranking_score": 9.0,
+        "verdict": "Caution",
+        "synergy": "The given drug combination Afatinib + Palbociclib has highest synergy score [ZIP: 27.07, Bliss: 27.98, Loewe: 3.91, HSA: 7.41, Consensus: 16.59] in cell line DIPG25 and lowest synergy score [ZIP: 27.07, Bliss: 27.98, Loewe: 3.91, HSA: 7.41, Consensus: 16.59] in cell line DIPG25."
+    }
+]

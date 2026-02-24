@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "method": "Full",
+        "target_disease": "Breast Invasive Carcinoma",
+        "focus_gene": "EGFR",
+        "combination": "Lapatinib + Everolimus",
+        "mechanism": "Synthetic Lethality due to EGFR Overexpression and mTOR Alteration",
+        "rationale_type": "Inferred Similarity",
+        "supporting_evidence": "Lapatinib inhibits EGFR tyrosine kinase activity, leading to inhibition of cell proliferation and induction of apoptosis in cancer cells [1]. Everolimus inhibits mTOR, which is involved in regulating cell growth and proliferation [2]. The combination of Lapatinib and Everolimus has been shown to be more effective than either drug alone in preclinical studies [3]. However, the toxicities associated with this combination need to be carefully monitored in clinical trials. (https://www.ncbi.nlm.nih.gov/pubmed/15917083) (https://www.ncbi.nlm.nih.gov/pubmed/15843351) (https://www.ncbi.nlm.nih.gov/pubmed/17360993)",
+        "civic_urls": [],
+        "chembl_urls": [],
+        "trial_urls": [
+            "https://clinicaltrials.gov/study/NCT06257264",
+            "https://clinicaltrials.gov/study/NCT04486833",
+            "https://clinicaltrials.gov/study/NCT07137416"
+        ],
+        "reactome_urls": [
+            "https://reactome.org/content/detail/R-HSA-9665348",
+            "https://reactome.org/content/detail/R-HSA-5637810",
+            "https://reactome.org/content/detail/R-HSA-5637812"
+        ],
+        "safety_score": 8,
+        "plausibility": "Moderate. Reason: The combination of Lapatinib and Everolimus targets two different pathways involved in cancer cell growth and survival. Lapatinib inhibits the EGFR tyrosine kinase, which is overexpressed in some breast cancers, while Everolimus inhibits mTOR, a key regulator of cell growth and proliferation. This dual targeting may lead to synthetic lethality, where the combination of drugs is more effective than either drug alone.",
+        "combination_toxicity_risk": "Moderate. Reason: Both Lapatinib and Everolimus have overlapping toxicities, including dermatitis acneiform, diarrhoea, dry skin, dyspepsia, and hepatobiliary disease. However, the evidence status is 'Validated', indicating that these toxicities have been observed in clinical studies. Predicted based on individual profiles.",
+        "critique": "The combination of Lapatinib and Everolimus has shown promise in preclinical studies, but further clinical trials are needed to confirm its efficacy and safety in patients with breast invasive carcinoma. The overlapping toxicities between the two drugs may limit their use in certain patients.",
+        "source_urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/41594421/",
+            "https://pubmed.ncbi.nlm.nih.gov/40719840/",
+            "https://pubmed.ncbi.nlm.nih.gov/40457103/",
+            "https://pubmed.ncbi.nlm.nih.gov/40165206/",
+            "https://pubmed.ncbi.nlm.nih.gov/38691867/",
+            "https://pubmed.ncbi.nlm.nih.gov/29394793/"
+        ],
+        "evidence_status": "Validated (Literature Exists)",
+        "ne_hits": 103,
+        "nc_hits": 1,
+        "is_novel_exact": false,
+        "is_novel_context": false,
+        "graph_evidence_score": 10.0,
+        "ranking_score": 9.0,
+        "verdict": "Caution",
+        "synergy": "No direct data in DrugComb database for this drug combination."
+    }
+]

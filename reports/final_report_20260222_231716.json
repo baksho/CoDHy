@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "method": "Full",
+        "target_disease": "Breast Invasive Carcinoma",
+        "focus_gene": "EGFR",
+        "combination": "Nelfinavir + AZD6244",
+        "mechanism": "Synthetic Lethality through EGFR inhibition and mTOR pathway disruption",
+        "rationale_type": "Inferred Similarity",
+        "supporting_evidence": "Nelfinavir's mechanism of action involves inhibiting the HIV protease enzyme [3](https://www.ncbi.nlm.nih.gov/pubmed/10334951). AZD6244 (Vemurafenib) targets BRAF V600E mutations in melanoma [4](https://www.ncbi.nlm.nih.gov/pubmed/19369234). The mTOR pathway is a critical regulator of cell growth and proliferation, and its disruption can lead to synthetic lethality [5](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3131113/). However, the combination of Nelfinavir and AZD6244 has not been directly studied for breast invasive carcinoma.",
+        "civic_urls": [],
+        "chembl_urls": [],
+        "trial_urls": [],
+        "reactome_urls": [],
+        "safety_score": 8,
+        "plausibility": "Moderate. Reason: Nelfinavir is a protease inhibitor used in HIV treatment, and AZD6244 (also known as Vemurafenib) is a BRAF inhibitor. While both drugs have been studied individually for various cancers, their combination has not been extensively explored. The mechanism of synthetic lethality through EGFR inhibition and mTOR pathway disruption is plausible, but requires further investigation.",
+        "combination_toxicity_risk": "Predicted based on individual profiles. Reason: Nelfinavir can cause gastrointestinal side effects such as diarrhea and nausea [1](https://www.ncbi.nlm.nih.gov/pubmed/11139491). AZD6244 has been associated with skin rash, fatigue, and arthralgia [2](https://www.ncbi.nlm.nih.gov/pubmed/19369234). The combination of these two drugs may increase the risk of gastrointestinal toxicity. However, this is speculative, as no direct study exists for this specific combination.",
+        "critique": "The proposed combination of Nelfinavir and AZD6244 has a moderate plausibility score due to the lack of direct evidence supporting its efficacy in breast invasive carcinoma. While the mechanism of synthetic lethality is intriguing, further investigation is needed to confirm its effectiveness and safety.",
+        "source_urls": [],
+        "evidence_status": "Inferred (Novel Combination)",
+        "ne_hits": 0,
+        "nc_hits": 0,
+        "is_novel_exact": true,
+        "is_novel_context": true,
+        "graph_evidence_score": 10.0,
+        "ranking_score": 9.0,
+        "verdict": "Proceed",
+        "synergy": "No direct data in DrugComb database for this drug combination."
+    }
+]

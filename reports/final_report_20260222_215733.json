@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "method": "Full",
+        "target_disease": "Breast Invasive Carcinoma",
+        "focus_gene": "EGFR",
+        "combination": "AZD9291 + Palbociclib",
+        "mechanism": "Synthetic Lethality",
+        "rationale_type": "Direct Graph Evidence",
+        "supporting_evidence": "Palbociclib's mechanism of action: Palbociclib inhibits CDK4/6, which leads to cell cycle arrest and apoptosis in cancer cells [3](https://www.ncbi.nlm.nih.gov/pubmed/25176143). AZD9291's mechanism of action: AZD9291 is an irreversible EGFR TKI that selectively targets NSCLC cells with EGFR mutations [4](https://www.ncbi.nlm.nih.gov/pubmed/26111119). Synthetic lethality: The combination of these two drugs may have synergistic effects due to the inhibition of different pathways in cancer cells, but more research is needed to fully understand this mechanism.",
+        "civic_urls": [
+            "https://civicdb.org/links/evidence/4872",
+            "https://civicdb.org/links/evidence/7800",
+            "https://civicdb.org/links/evidence/12398"
+        ],
+        "chembl_urls": [],
+        "trial_urls": [
+            "https://clinicaltrials.gov/study/NCT07137416",
+            "https://clinicaltrials.gov/study/NCT06257264",
+            "https://clinicaltrials.gov/study/NCT04486833"
+        ],
+        "reactome_urls": [
+            "https://reactome.org/content/detail/R-HSA-5637810",
+            "https://reactome.org/content/detail/R-HSA-5637812",
+            "https://reactome.org/content/detail/R-HSA-9665348"
+        ],
+        "safety_score": 8,
+        "plausibility": "Moderate. Reason: Palbociclib is a CDK4/6 inhibitor, which has shown efficacy in breast cancer treatment. AZD9291 is an EGFR TKI, which has shown efficacy in NSCLC treatment. The combination of these two drugs may have synergistic effects, but the mechanism is not fully understood.",
+        "combination_toxicity_risk": "Predicted based on individual profiles. Reason: Palbociclib can cause neutropenia and thrombocytopenia as a side effect [1](https://www.ncbi.nlm.nih.gov/pubmed/25762693). AZD9291 can also cause rash, diarrhea, and liver enzyme elevations as side effects [2](https://www.ncbi.nlm.nih.gov/pubmed/26111119). The combination of these two drugs may increase the risk of hematologic toxicity.",
+        "critique": "The combination of AZD9291 and Palbociclib is an interesting one, but more research is needed to fully understand its efficacy and safety. The mechanism of synthetic lethality is not well understood in this context, and more preclinical studies are required to validate the hypothesis.",
+        "source_urls": [],
+        "evidence_status": "Inferred (Novel Combination)",
+        "ne_hits": 0,
+        "nc_hits": 0,
+        "is_novel_exact": true,
+        "is_novel_context": true,
+        "graph_evidence_score": 0.0,
+        "ranking_score": 4.0,
+        "verdict": "Reject",
+        "synergy": "No direct data in DrugComb database for this drug combination."
+    }
+]
