@@ -103,9 +103,11 @@ CoDHy is designed to run on **Google Colab** with access to Google Drive. Follow
 
 ### 1. Clone or copy the project files to your Google Drive
 
-Place all `.py` module files in a folder on your Google Drive, e.g.:
+Make sure to keep all `.py` module files in the same file as the `main.py` file. Be sure to change the path for `folder_path` (main path where all `.py` files are saved), `SAVE_PATH` (where data caches from biological databases and embeddings are saved) and `REPORT_DIR` (where final generated reports are saved):
 ```
-/MyDrive/Colab Notebooks/AIcoS/FINAL/
+folder_path = '/content/drive/MyDrive/Colab Notebooks/AIcoS/FINAL'
+SAVE_PATH = "/content/drive/MyDrive/Colab Notebooks/AIcoS/FINAL/data_cache/"
+REPORT_DIR = "/content/drive/MyDrive/Colab Notebooks/AIcoS/FINAL/reports/"
 ```
 
 ### 2. Install dependencies
