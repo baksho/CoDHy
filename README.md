@@ -99,7 +99,7 @@ CoDHy automates the early-stage drug hypothesis generation pipeline by:
 
 ## Installation
 
-CoDHy is designed to run on **Google Colab** with access to Google Drive. Follow the steps below to set up the environment:
+Find below the instructions to run CoDHy locally. Follow the steps below to set up the environment:
 
 ### 1. Clone the repository or copy the project files
 
@@ -112,7 +112,7 @@ REPORT_DIR = "/content/drive/MyDrive/Colab Notebooks/AIcoS/FINAL/reports/"
 
 ### 2. Install dependencies
 
-In a Colab notebook cell, run:
+Make sure to install all the library dependencies. Run:
 
 ```python
 !pip install reactome2py civicpy chembl-webresource-client rdkit neo4j biopython spacy scispacy -q
@@ -132,7 +132,7 @@ In a Colab notebook cell, run:
 
 ### 4. Configure Neo4j credentials
 
-Store the following secrets in your Colab environment (via `userdata`):
+Store the following secrets in your environment (via `userdata`):
 - `NEO4J_URI`
 - `NEO4J_USER`
 - `NEO4J_PASSWORD`
@@ -164,10 +164,10 @@ See [`requirements.txt`](requirements.txt) for the full list of Python dependenc
 
 ## Usage
 
-1. Mount Google Drive and add the project folder to the Python path.
+1. Go to your project folder and add it to the Python path.
 2. Set your gene(s) of interest and cancer type(s) in `main.py`.
 3. Configure your Neo4j connection credentials.
-4. Run `main.py` (or execute the corresponding Colab notebook cells):
+4. Run `main.py`:
 
 ```python
 INPUT_GENE = "EGFR"
