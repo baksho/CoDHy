@@ -101,7 +101,7 @@ CoDHy automates the early-stage drug hypothesis generation pipeline by:
 
 CoDHy is designed to run on **Google Colab** with access to Google Drive. Follow the steps below to set up the environment:
 
-### 1. Clone or copy the project files to your Google Drive
+### 1. Clone the repository or copy the project files
 
 Make sure to keep all `.py` module files in the same file as the `main.py` file. Be sure to change the path for `folder_path` (main path where all `.py` files are saved), `SAVE_PATH` (where data caches from biological databases and embeddings are saved) and `REPORT_DIR` (where final generated reports are saved):
 ```
