@@ -1,0 +1,63 @@
+gene,drug,synonyms,chembl_id,action,max_phase,is_withdrawn,source_url
+EGFR,PANITUMUMAB,"['L01xc08', 'Panitumumab', 'ABX-EGF', 'Abenix', 'E7.6.3', 'Vectibix']",CHEMBL1201827,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201827/
+EGFR,CETUXIMAB,"['Erbitux', 'IMC-C225', 'C-225', 'Cetuximab', 'Cetuximab biosimilar (abp-494)', 'CMAB009', 'MOAB C225', 'ABP-494', 'C225', 'IMC-225', 'Cetuximab (genetical recombination)', 'CMAB-009']",CHEMBL1201577,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201577/
+EGFR,ERLOTINIB HYDROCHLORIDE,"['CP-358', 'Erlotinib hydrochloride', 'OSI-774', 'CP-358,774-01', 'Erlotinib hcl', 'Tarceva', 'CP-358774-01']",CHEMBL1079742,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1079742/
+EGFR,GEFITINIB,"['NSC-759856', 'Gefitinib mylan', 'Iressa', 'Gefitinib', 'ZD1839', 'ZD-1839']",CHEMBL939,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL939/
+EGFR,LAPATINIB DITOSYLATE,"['Lapatinib ditoluenesulfonate monohydrate', 'Lapatinib ditosylate monohydrate', 'GW-572016F', 'Lapatinib tosilate hydrate', 'Tycerb', 'Lapatinib ditosylate', 'Lapatinib tosilate', 'GW572016F', 'Tyverb', 'Lapatinib ditosylate anhydrous', 'Tykerb']",CHEMBL1201179,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1201179/
+EGFR,AFATINIB DIMALEATE,"['Afatinib maleate', 'Gilotrif', 'BIBW-2992MA2', 'BIBW2992 MA2', 'BIBW2992-MA2', 'Giotrif', 'BIBW-2992-MA2', 'Afatinib dimaleate', 'BIBW-2992 MA2']",CHEMBL2105712,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2105712/
+EGFR,OSIMERTINIB MESYLATE,"['Mereletinib mesilate', 'AZD9291 mesylate', 'Osimertinib mesilate', 'Osimertinib mesylate', 'AZD-9291 MESYLATE', 'Tagrisso', 'Mereletinib mesylate']",CHEMBL3545063,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3545063/
+EGFR,NECITUMUMAB,"['11F8', 'Necitumumab', 'IMC-11F8', 'Portrazza']",CHEMBL1743047,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1743047/
+EGFR,AC-480,"['BMS-599626', 'Bms 599626', 'AC480', 'Ac-480', 'AC-480']",CHEMBL1645462,INHIBITOR,1.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1645462/
+EGFR,ALLITINIB,"['Allitinib', 'Ast1306', 'Als 1306', 'Ast-1306', 'ALL-3', 'Ast 1306']",CHEMBL1947204,INHIBITOR,2.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1947204/
+EGFR,AZD-4769,"['Azd 4769', 'AZ-12096971', 'L674573', 'AZD4769', 'L-674573', 'Azd-4769']",CHEMBL422872,INHIBITOR,1.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL422872/
+EGFR,FALNIDAMOL,"['Bibx1382', 'BIBX-1382', 'Falnidamol', 'Bibx-1382', 'Bibx 1382', 'BIBX 1382']",CHEMBL258940,INHIBITOR,2.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL258940/
+EGFR,CEP-32496,"['Rxdx 105', 'CEP-32496', 'AC-013773', 'AB-024', 'Cep-32496', 'RXDX-105', 'Agerafenib']",CHEMBL2029988,INHIBITOR,2.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2029988/
+EGFR,CUDC-101,"['Cudc-101', 'Cudc 101']",CHEMBL598797,INHIBITOR,1.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL598797/
+EGFR,OLMUTINIB,"['Hm-61713', 'HM-61713', 'BI-1482694', 'Olmutinib', 'HM61713', 'BI 1482694']",CHEMBL3786343,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3786343/
+EGFR,THELIATINIB,"['Theliatinib', 'Xiliertinib', 'Hmpl-309', 'HMPL-309']",CHEMBL5314410,INHIBITOR,2.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL5314410/
+EGFR,EPITINIB,"['Hmpl-813', 'HMPL-813', 'Epitinib']",CHEMBL5314411,INHIBITOR,1.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL5314411/
+EGFR,JNJ-26483327,"['Jnj-26483327', 'JNJ 26483327', 'JNJ-26483327']",CHEMBL3109738,INHIBITOR,1.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3109738/
+EGFR,AV-412,"['Av-412', 'Mp 412', 'Mp-412', 'MP-412 DITOSYLATE']",CHEMBL6067986,INHIBITOR,1.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL6067986/
+EGFR,PD-0166285 HYDROCHLORIDE,"['Pd-0166285 hydrochloride', 'Pd-0166285 dihydrochloride']",CHEMBL3545196,INHIBITOR,1.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3545196/
+TP53,CONTUSUGENE LADENOVEC,"['AD5CMV-P53', 'INGN-201', 'Advexin', 'INGN 201', 'Contusugen ladenovec', 'Contusugene ladenovec']",CHEMBL2108585,EXOGENOUS GENE,2.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2108585/
+TP53,EPRENETAPOPT,"['APR-246', 'Apr 246', 'Apr-246', 'Eprenetapopt', 'PRIMA-1Met']",CHEMBL3186011,STABILISER,3.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3186011/
+KRAS,SOTORASIB,"['AMG510', 'AMG-510', 'Kras g12c inhibitor 9', 'Lumakras', 'Sotorasib', 'Lumykras', 'Kras mutant-targeting amg 510']",CHEMBL4535757,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL4535757/
+KRAS,ADAGRASIB,"['Krazati', 'Mrtx-849', 'Adagrasib', 'MRTX-849', 'MRTX849', 'Kras g12c inhibitor mrtx849', 'Mrtx849']",CHEMBL4594350,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL4594350/
+CHK1,AZD-7762,"['AZD7762', 'Azd 7762', 'Azd-7762']",CHEMBL2041933,INHIBITOR,1.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2041933/
+CHK1,PF-00477736,"['PF-477736', 'PF477736', 'PF-00477736', 'Pf 477736', 'Pf-00477736']",CHEMBL3545137,INHIBITOR,1.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3545137/
+CHK1,RG-7602,"['RG-7602', 'Rg-7602', 'GDC-0425']",CHEMBL5314388,INHIBITOR,1.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL5314388/
+CHK1,RG-7741,"['GDC-0575', 'Rg-7741']",CHEMBL3545199,INHIBITOR,1.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3545199/
+CHK1,SCH-900776,"['SCH 900776', 'Sch-900776', 'Mk-8776']",CHEMBL2386889,INHIBITOR,2.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL2386889/
+CHK1,XL-844,['Xl-844'],CHEMBL3544936,INHIBITOR,1.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3544936/
+CHK1,RABUSERTIB,"['IC-83', 'Ly-2603618', 'Rabusertib', 'LY-2603618', 'LY2603618']",CHEMBL3039517,INHIBITOR,2.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3039517/
+CHK1,UCN-01,"['UCN-01', 'KW-2401', '7-hydroxystaurosporine', 'Ucn 01', 'KRX-0601', 'UCN-02', 'NSC-638850', 'Ucn-01']",CHEMBL574737,INHIBITOR,2.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL574737/
+CHK1,PREXASERTIB,"['Prexasertib', 'Ly-2606368', 'LY-2606368', 'LY2606368']",CHEMBL3544911,INHIBITOR,2.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3544911/
+PARP1,TALAZOPARIB,"['BMN-673', 'PF-06944076', 'Talazoparib', 'BMN 673', 'LT-673']",CHEMBL3137320,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3137320/
+PARP1,TALAZOPARIB TOSYLATE,"['BMN-673TS', 'Talazoparib tosilate', 'Talazoparib tosylate', 'Talzenna', 'BMN 673ts']",CHEMBL3137318,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3137318/
+PARP1,NIRAPARIB,"['MK4827', 'ZL-2306', 'MK-4827', 'JNJ-64091742', 'Niraparib', 'Zejula']",CHEMBL1094636,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1094636/
+PARP1,NIRAPARIB TOSYLATE MONOHYDRATE,"['MK-4827', 'Niraparib tosilate hydrate', 'Niraparib tosylate monohydrate', 'Niraparib (tosilate monohydrate)', 'Niraparib tosylate monohydrate component of akeega  niraparib tosylate', 'GSK3985771', 'Niraparib tosylate component of akeega', 'MK-4827 TOSYLATE MONOHYDRATE', 'Zejula', 'Niraparib tosylate', 'GSK-3985771']",CHEMBL3989922,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3989922/
+PARP1,2X-121,"['Parp inhibitor 2x-121', 'Stenoparib', 'E7449', 'E-7449', '2x-121', '2X-121']",CHEMBL3644587,INHIBITOR,2.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3644587/
+PARP1,PAMIPARIB,"['Pamiparib', 'Bgb-290', 'BGB-290']",CHEMBL4112930,INHIBITOR,3.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL4112930/
+PARP1,AMELPARIB DIHYDROCHLORIDE DIHYDRATE,"['Jpi-289', 'Amelparib dihydrochloride dihydrate', 'JPI-289']",CHEMBL5314421,INHIBITOR,2.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL5314421/
+PARP1,SENAPARIB,"['IMP-4297', 'Imp4297', 'IMP4297', 'Senaparib']",CHEMBL4802152,INHIBITOR,2.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL4802152/
+WEE1,ADAVOSERTIB,"['Azd-1775', 'MK1775', 'Adavosertib', 'AZD1775', 'AZD-1775', 'AZD 1775', 'MK-1775']",CHEMBL1976040,INHIBITOR,2.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1976040/
+WEE1,AZENOSERTIB,"['Zn-c3', 'Azenosertib', 'ZN-C3']",CHEMBL5095036,INHIBITOR,2.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL5095036/
+ATR,RIMANTADINE HYDROCHLORIDE,"['Rimantadine hydrochloride', 'EXP 126', 'EXP-126', 'Rimantadine hcl', 'Roflual', 'Meradan', 'NSC-206764', 'Flumadine']",CHEMBL535396,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL535396/
+AURKA,ENMD-981693,"['Ro-317453', 'MKC-1', 'RO 31-7453', 'Mkc 1', 'ENMD 981693', 'R-440', 'RO-31-7453', 'Enmd-2076 free base', 'Enmd-981693']",CHEMBL52885,INHIBITOR,2.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL52885/
+AURKA,KW-2449,"['Kw 2449', 'Kw-2449']",CHEMBL1908397,INHIBITOR,1.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1908397/
+AURKA,MK-5108,"['MK 5108', 'MK5108', 'Mk-5108', 'VX-689']",CHEMBL3600873,INHIBITOR,1.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3600873/
+AURKA,MLN-8054,"['Mln-8054', 'MLN 8054', 'Mln8054', 'MLN-8054']",CHEMBL259084,INHIBITOR,1.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL259084/
+AURKA,PF-03814735,"['Pf-03814735', 'PF 3814735', 'PF 03814735', 'PF-3814735']",CHEMBL4289017,INHIBITOR,1.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL4289017/
+AURKA,TAS-119,"['Tas 119', 'Tas-119']",CHEMBL3692206,INHIBITOR,1.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3692206/
+AURKA,RG-1530,"['RG-1530', 'Rg-1530', 'R-1530']",CHEMBL1980391,INHIBITOR,1.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL1980391/
+AURKA,AT-9283,"['AT9283', 'At-9283', 'At 9283']",CHEMBL495727,INHIBITOR,2.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL495727/
+AURKA,ENMD-2076,"['Enmd 2076', 'Enmd-2076', 'L-(+) TARTRATE SALT OF ENMD-981693']",CHEMBL482968,INHIBITOR,2.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL482968/
+AURKA,ALISERTIB,"['Alisertib', 'MLN-8237', 'Mln-8237', 'MLN 8237', 'MLN8237']",CHEMBL483158,INHIBITOR,3.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL483158/
+CDK6,TRILACICLIB,"['Trilaciclib', 'G1t28-1', 'G1T28']",CHEMBL3894860,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3894860/
+CDK6,ABEMACICLIB,"['Verzenios', 'Verzenio', 'LY-2835219', 'LY2835219', 'Ly-2835219', 'Abemaciclib']",CHEMBL3301610,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3301610/
+CDK6,UCN-01,"['UCN-01', 'KW-2401', '7-hydroxystaurosporine', 'Ucn 01', 'KRX-0601', 'UCN-02', 'NSC-638850', 'Ucn-01']",CHEMBL574737,INHIBITOR,2.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL574737/
+CDK6,ALVOCIDIB,"['L86-8275', 'L-868275', 'MDL 107,826A', 'HMR-1275', 'HMR 1275', 'Flavopiridol', 'HL 275', 'MDL-107826A', 'HL-275', 'L 86 8275', 'NSC-649890', 'Alvocidib', 'Alvocidib freebase']",CHEMBL428690,INHIBITOR,3.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL428690/
+CDK6,RIBOCICLIB,"['LEE-011A', 'Lee-011', 'Ribociclib', 'LEE-011', 'LEE011', 'NVP-LEE011', 'LEE011A']",CHEMBL3545110,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3545110/
+CDK6,RIBOCICLIB SUCCINATE,"['Birociclib', 'LEE-011-BBA', 'Kisqali', 'LEE-011 SUCCINATE', 'LEE011-BBA', 'Ribociclib succinate component of kisqali femara co-pack', 'Ribociclib succinate']",CHEMBL3707266,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3707266/
+CDK6,TRILACICLIB,"['Trilaciclib', 'G1t28-1', 'G1T28']",CHEMBL3894860,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL3894860/
+CDK6,TRILACICLIB DIHYDROCHLORIDE,"['Trilaciclib dihydrochloride', 'G1T28 DIHYDROCHLORIDE', 'Cosela']",CHEMBL4650272,INHIBITOR,4.0,False,https://www.ebi.ac.uk/chembl/compound_report_card/CHEMBL4650272/

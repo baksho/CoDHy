@@ -1,0 +1,1001 @@
+sample_id,project_id,disease_name,broad_disease,gene_symbol,mutation_type,source_url
+TCGA-BH-A0B3,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BH-A0B3
+TCGA-BH-A0E9,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PTEN,splice_donor_variant,https://portal.gdc.cancer.gov/cases/TCGA-BH-A0E9
+TCGA-4Z-AA86,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-4Z-AA86
+TCGA-55-8508,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-55-8508
+TCGA-96-A4JK,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,ATR,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-96-A4JK
+TCGA-3N-A9WD,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-3N-A9WD
+TCGA-DM-A28M,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DM-A28M
+TCGA-50-5944,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-50-5944
+TCGA-B6-A409,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-B6-A409
+TCGA-AG-A00C,TCGA-READ,Rectum Adenocarcinoma,Colorectal,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AG-A00C
+TCGA-05-5423,TCGA-LUAD,Lung Adenocarcinoma,Lung,EGFR,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-05-5423
+TCGA-P5-A780,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-P5-A780
+TCGA-TM-A84L,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-TM-A84L
+TCGA-AO-A03L,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-AO-A03L
+TCGA-VQ-A8PT,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PTEN,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-VQ-A8PT
+TCGA-CR-5243,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CR-5243
+TCGA-FD-A6TD,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-FD-A6TD
+TCGA-61-1737,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-61-1737
+TCGA-B6-A0RG,TCGA-BRCA,Breast Invasive Carcinoma,Breast,ATR,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-B6-A0RG
+TCGA-NK-A5CT,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,PARP1,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-NK-A5CT
+TCGA-FB-AAQ2,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-FB-AAQ2
+TCGA-T2-A6WZ,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,splice_donor_variant,https://portal.gdc.cancer.gov/cases/TCGA-T2-A6WZ
+TCGA-AA-A01I,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-A01I
+TCGA-78-7167,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-78-7167
+TCGA-CG-4438,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-CG-4438
+TCGA-28-5209,TCGA-GBM,Glioblastoma Multiforme,Brain,PTEN,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-28-5209
+TCGA-QK-A6VB,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,splice_donor_variant,https://portal.gdc.cancer.gov/cases/TCGA-QK-A6VB
+TCGA-04-1342,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-04-1342
+TCGA-CV-A6JD,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-A6JD
+TCGA-92-8063,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-92-8063
+TCGA-94-8490,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,ATM,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-94-8490
+TCGA-CL-4957,TCGA-READ,Rectum Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CL-4957
+TCGA-VQ-A8PP,TCGA-STAD,Stomach Adenocarcinoma,Stomach,KRAS,intron_variant,https://portal.gdc.cancer.gov/cases/TCGA-VQ-A8PP
+TCGA-19-2625,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-19-2625
+TCGA-HU-A4GU,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-HU-A4GU
+TCGA-D5-5538,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-D5-5538
+TCGA-49-AARQ,TCGA-LUAD,Lung Adenocarcinoma,Lung,ATR,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-49-AARQ
+TCGA-EI-6507,TCGA-READ,Rectum Adenocarcinoma,Colorectal,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-EI-6507
+TCGA-EW-A1P4,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-EW-A1P4
+TCGA-A3-3308,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,Kidney,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-A3-3308
+TCGA-EF-5830,TCGA-READ,Rectum Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-EF-5830
+TCGA-04-1357,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,AURKA,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-04-1357
+TCGA-DU-7015,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DU-7015
+TCGA-66-2771,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,ATR,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-66-2771
+TCGA-A7-A4SC,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-A7-A4SC
+TCGA-CN-5373,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CN-5373
+TCGA-NC-A5HM,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-NC-A5HM
+TCGA-CU-A3KJ,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CU-A3KJ
+TCGA-W3-AA1R,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-W3-AA1R
+TCGA-FD-A3SR,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-FD-A3SR
+TCGA-D6-6517,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-D6-6517
+TCGA-E7-A85H,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,CDK6,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-E7-A85H
+TCGA-G4-6303,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-G4-6303
+TCGA-95-A4VP,TCGA-LUAD,Lung Adenocarcinoma,Lung,ATM,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-95-A4VP
+TCGA-05-5423,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-05-5423
+TCGA-NH-A50V,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-NH-A50V
+TCGA-12-1600,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-12-1600
+TCGA-AA-3667,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3667
+TCGA-BA-A8YP,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-BA-A8YP
+TCGA-F5-6863,TCGA-READ,Rectum Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-F5-6863
+TCGA-BR-7851,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-7851
+TCGA-2J-AABF,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-2J-AABF
+TCGA-V1-A8MJ,TCGA-PRAD,Prostate Adenocarcinoma,Prostate,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-V1-A8MJ
+TCGA-GD-A2C5,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-GD-A2C5
+TCGA-E2-A14R,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-E2-A14R
+TCGA-85-8350,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-85-8350
+TCGA-34-7107,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,PARP1,splice_region_variant,https://portal.gdc.cancer.gov/cases/TCGA-34-7107
+TCGA-DK-A3WW,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,ATM,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-DK-A3WW
+TCGA-DK-A6AW,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,AURKA,incomplete_terminal_codon_variant,https://portal.gdc.cancer.gov/cases/TCGA-DK-A6AW
+TCGA-VQ-AA6G,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-VQ-AA6G
+TCGA-FP-7735,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PTEN,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-FP-7735
+TCGA-AF-A56N,TCGA-READ,Rectum Adenocarcinoma,Colorectal,TP53,5_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-AF-A56N
+TCGA-66-2766,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,intron_variant,https://portal.gdc.cancer.gov/cases/TCGA-66-2766
+TCGA-5M-AATE,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-5M-AATE
+TCGA-AA-3860,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3860
+TCGA-DD-AAEI,TCGA-LIHC,Liver Hepatocellular Carcinoma,Liver,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-DD-AAEI
+TCGA-76-4929,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-76-4929
+TCGA-BR-4201,TCGA-STAD,Stomach Adenocarcinoma,Stomach,ATR,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-4201
+TCGA-85-A4JC,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-85-A4JC
+TCGA-ER-A193,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,ATR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-ER-A193
+TCGA-FW-A3R5,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,ATR,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-FW-A3R5
+TCGA-93-A4JO,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,5_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-93-A4JO
+TCGA-F4-6855,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PARP1,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-F4-6855
+TCGA-BH-A0BF,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-BH-A0BF
+TCGA-BF-A1Q0,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BF-A1Q0
+TCGA-34-5241,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-34-5241
+TCGA-19-1390,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-19-1390
+TCGA-LA-A7SW,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-LA-A7SW
+TCGA-A7-A0CJ,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-A7-A0CJ
+TCGA-05-4425,TCGA-LUAD,Lung Adenocarcinoma,Lung,EGFR,protein_altering_variant,https://portal.gdc.cancer.gov/cases/TCGA-05-4425
+TCGA-K4-A5RI,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,MDM2,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-K4-A5RI
+TCGA-CN-6021,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CN-6021
+TCGA-27-2521,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-27-2521
+TCGA-AR-A256,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-AR-A256
+TCGA-K4-A5RI,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-K4-A5RI
+TCGA-CD-5801,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PARP1,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CD-5801
+TCGA-12-0821,TCGA-GBM,Glioblastoma Multiforme,Brain,ATR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-12-0821
+TCGA-TQ-A7RR,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-TQ-A7RR
+TCGA-HD-8634,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-HD-8634
+TCGA-HN-A2NL,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-HN-A2NL
+TCGA-AG-A002,TCGA-READ,Rectum Adenocarcinoma,Colorectal,ATR,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-AG-A002
+TCGA-FG-7634,TCGA-LGG,Brain Lower Grade Glioma,Brain,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-FG-7634
+TCGA-TM-A84T,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-TM-A84T
+TCGA-EE-A29E,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,EGFR,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-EE-A29E
+TCGA-24-2262,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-24-2262
+TCGA-31-1959,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-31-1959
+TCGA-RB-AA9M,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-RB-AA9M
+TCGA-33-AASL,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-33-AASL
+TCGA-69-7974,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-69-7974
+TCGA-AA-3821,TCGA-COAD,Colon Adenocarcinoma,Colorectal,WEE1,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3821
+TCGA-FG-5965,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-FG-5965
+TCGA-24-1850,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,5_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-24-1850
+TCGA-CV-7103,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,ATR,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-7103
+TCGA-AN-A046,TCGA-BRCA,Breast Invasive Carcinoma,Breast,ATM,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AN-A046
+TCGA-A6-6142,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,splice_donor_variant,https://portal.gdc.cancer.gov/cases/TCGA-A6-6142
+TCGA-BR-6802,TCGA-STAD,Stomach Adenocarcinoma,Stomach,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-6802
+TCGA-14-1795,TCGA-GBM,Glioblastoma Multiforme,Brain,ATM,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-14-1795
+TCGA-GD-A76B,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-GD-A76B
+TCGA-DH-A7UV,TCGA-LGG,Brain Lower Grade Glioma,Brain,PTEN,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DH-A7UV
+TCGA-85-6798,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-85-6798
+TCGA-CV-7242,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,ATR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-7242
+TCGA-F5-6464,TCGA-READ,Rectum Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-F5-6464
+TCGA-HN-A2OB,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-HN-A2OB
+TCGA-F4-6805,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-F4-6805
+TCGA-XK-AAIW,TCGA-PRAD,Prostate Adenocarcinoma,Prostate,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-XK-AAIW
+TCGA-EE-A3JD,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,EGFR,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-EE-A3JD
+TCGA-CV-A45V,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,MYC,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-A45V
+TCGA-CM-5864,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CM-5864
+TCGA-AO-A0JA,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AO-A0JA
+TCGA-24-2288,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-24-2288
+TCGA-18-3409,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,ATR,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-18-3409
+TCGA-A7-A26H,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-A7-A26H
+TCGA-A2-A0D2,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-A2-A0D2
+TCGA-06-0210,TCGA-GBM,Glioblastoma Multiforme,Brain,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-06-0210
+TCGA-56-7582,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,splice_donor_variant,https://portal.gdc.cancer.gov/cases/TCGA-56-7582
+TCGA-ED-A7XO,TCGA-LIHC,Liver Hepatocellular Carcinoma,Liver,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-ED-A7XO
+TCGA-CG-4469,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-CG-4469
+TCGA-C8-A275,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-C8-A275
+TCGA-49-AARQ,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-49-AARQ
+TCGA-TM-A84I,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-TM-A84I
+TCGA-AN-A0AK,TCGA-BRCA,Breast Invasive Carcinoma,Breast,EGFR,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-AN-A0AK
+TCGA-AC-A5XS,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AC-A5XS
+TCGA-33-4583,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-33-4583
+TCGA-HU-A4GX,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PARP1,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-HU-A4GX
+TCGA-55-8615,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-55-8615
+TCGA-61-2102,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-61-2102
+TCGA-EE-A29E,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,PARP1,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-EE-A29E
+TCGA-MP-A4T9,TCGA-LUAD,Lung Adenocarcinoma,Lung,MDM2,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-MP-A4T9
+TCGA-ZF-A9RC,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-ZF-A9RC
+TCGA-S9-A7IX,TCGA-LGG,Brain Lower Grade Glioma,Brain,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-S9-A7IX
+TCGA-D9-A6EA,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-D9-A6EA
+TCGA-61-1734,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-61-1734
+TCGA-AG-3902,TCGA-READ,Rectum Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AG-3902
+TCGA-EE-A2MG,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,TP53,splice_region_variant,https://portal.gdc.cancer.gov/cases/TCGA-EE-A2MG
+TCGA-EE-A29V,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,CDK4,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-EE-A29V
+TCGA-33-4582,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,MDM2,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-33-4582
+TCGA-R5-A7ZF,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-R5-A7ZF
+TCGA-DU-6408,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-DU-6408
+TCGA-A3-3357,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,Kidney,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-A3-3357
+TCGA-BA-4078,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,ATM,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-BA-4078
+TCGA-55-7726,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-55-7726
+TCGA-17-Z017,TCGA-LUAD,Lung Adenocarcinoma,Lung,ATM,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-17-Z017
+TCGA-HV-A7OL,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-HV-A7OL
+TCGA-39-5031,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,CCNE1,splice_acceptor_variant,https://portal.gdc.cancer.gov/cases/TCGA-39-5031
+TCGA-66-2742,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-66-2742
+TCGA-17-Z047,TCGA-LUAD,Lung Adenocarcinoma,Lung,EGFR,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-17-Z047
+TCGA-AA-3502,TCGA-COAD,Colon Adenocarcinoma,Colorectal,ATR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3502
+TCGA-G9-7521,TCGA-PRAD,Prostate Adenocarcinoma,Prostate,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-G9-7521
+TCGA-EE-A181,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,PARP1,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-EE-A181
+TCGA-AG-4008,TCGA-READ,Rectum Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AG-4008
+TCGA-21-1083,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,PTEN,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-21-1083
+TCGA-76-4925,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-76-4925
+TCGA-C8-A1HG,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-C8-A1HG
+TCGA-23-1029,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-23-1029
+TCGA-78-7536,TCGA-LUAD,Lung Adenocarcinoma,Lung,ATR,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-78-7536
+TCGA-P3-A5Q5,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,PIK3CA,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-P3-A5Q5
+TCGA-D8-A1XB,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-D8-A1XB
+TCGA-4Z-AA7M,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,CDK4,splice_region_variant,https://portal.gdc.cancer.gov/cases/TCGA-4Z-AA7M
+TCGA-ZF-AA4X,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,ATM,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-ZF-AA4X
+TCGA-5N-A9KI,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-5N-A9KI
+TCGA-CG-5721,TCGA-STAD,Stomach Adenocarcinoma,Stomach,ATM,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-CG-5721
+TCGA-18-3419,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-18-3419
+TCGA-16-1048,TCGA-GBM,Glioblastoma Multiforme,Brain,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-16-1048
+TCGA-D7-A4YX,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PIK3CA,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-D7-A4YX
+TCGA-CM-6680,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CM-6680
+TCGA-VG-A8LO,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-VG-A8LO
+TCGA-BP-5194,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,Kidney,WEE1,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-BP-5194
+TCGA-44-3396,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-44-3396
+TCGA-42-2588,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-42-2588
+TCGA-H7-8501,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-H7-8501
+TCGA-AA-3955,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3955
+TCGA-FR-A7U9,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-FR-A7U9
+TCGA-FW-A3R5,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,TP53,intron_variant,https://portal.gdc.cancer.gov/cases/TCGA-FW-A3R5
+TCGA-F4-6809,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-F4-6809
+TCGA-DD-AAD8,TCGA-LIHC,Liver Hepatocellular Carcinoma,Liver,TP53,splice_acceptor_variant,https://portal.gdc.cancer.gov/cases/TCGA-DD-AAD8
+TCGA-CN-4737,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CN-4737
+TCGA-22-5479,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,CDK6,splice_acceptor_variant,https://portal.gdc.cancer.gov/cases/TCGA-22-5479
+TCGA-CS-6665,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-CS-6665
+TCGA-66-2792,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-66-2792
+TCGA-86-6851,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-86-6851
+TCGA-BR-6452,TCGA-STAD,Stomach Adenocarcinoma,Stomach,ATM,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-6452
+TCGA-GC-A3WC,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-GC-A3WC
+TCGA-D5-6931,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-D5-6931
+TCGA-E2-A1B6,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-E2-A1B6
+TCGA-D9-A3Z4,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,ATR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-D9-A3Z4
+TCGA-A2-A0YH,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-A2-A0YH
+TCGA-50-5946,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-50-5946
+TCGA-BF-AAP4,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BF-AAP4
+TCGA-AG-3902,TCGA-READ,Rectum Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AG-3902
+TCGA-18-3415,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-18-3415
+TCGA-BH-A1EY,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BH-A1EY
+TCGA-BR-4371,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-4371
+TCGA-61-1895,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-61-1895
+TCGA-FW-A3R5,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,EGFR,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-FW-A3R5
+TCGA-60-2726,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-60-2726
+TCGA-CA-6718,TCGA-COAD,Colon Adenocarcinoma,Colorectal,CCNE1,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CA-6718
+TCGA-AA-3660,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3660
+TCGA-56-7822,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-56-7822
+TCGA-EW-A1J5,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-EW-A1J5
+TCGA-32-2634,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-32-2634
+TCGA-4Z-AA7R,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-4Z-AA7R
+TCGA-IB-7646,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-IB-7646
+TCGA-HT-7482,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-HT-7482
+TCGA-97-7553,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-97-7553
+TCGA-05-4402,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-05-4402
+TCGA-CM-6172,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CM-6172
+TCGA-24-2280,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-24-2280
+TCGA-BR-8360,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-8360
+TCGA-BR-8366,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PIK3CA,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-8366
+TCGA-BA-A4II,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BA-A4II
+TCGA-DD-AAVP,TCGA-LIHC,Liver Hepatocellular Carcinoma,Liver,ATR,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-DD-AAVP
+TCGA-C8-A1HG,TCGA-BRCA,Breast Invasive Carcinoma,Breast,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-C8-A1HG
+TCGA-YF-AA3M,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-YF-AA3M
+TCGA-D3-A3C8,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-D3-A3C8
+TCGA-BP-4965,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,Kidney,PTEN,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-BP-4965
+TCGA-BF-A5EO,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,EGFR,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-BF-A5EO
+TCGA-28-5213,TCGA-GBM,Glioblastoma Multiforme,Brain,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-28-5213
+TCGA-CN-A49B,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CN-A49B
+TCGA-G4-6298,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-G4-6298
+TCGA-44-7667,TCGA-LUAD,Lung Adenocarcinoma,Lung,ATR,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-44-7667
+TCGA-D7-A74B,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-D7-A74B
+TCGA-BR-4256,TCGA-STAD,Stomach Adenocarcinoma,Stomach,MYC,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-4256
+TCGA-HU-8243,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-HU-8243
+TCGA-IB-7645,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-IB-7645
+TCGA-30-1718,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-30-1718
+TCGA-BF-A1PU,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,PTEN,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-BF-A1PU
+TCGA-91-8496,TCGA-LUAD,Lung Adenocarcinoma,Lung,EGFR,protein_altering_variant,https://portal.gdc.cancer.gov/cases/TCGA-91-8496
+TCGA-DH-5143,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DH-5143
+TCGA-81-5910,TCGA-GBM,Glioblastoma Multiforme,Brain,PTEN,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-81-5910
+TCGA-44-7661,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-44-7661
+TCGA-CN-A6V3,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CN-A6V3
+TCGA-DU-7292,TCGA-LGG,Brain Lower Grade Glioma,Brain,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DU-7292
+TCGA-G3-AAV0,TCGA-LIHC,Liver Hepatocellular Carcinoma,Liver,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-G3-AAV0
+TCGA-D8-A1JE,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-D8-A1JE
+TCGA-BP-5173,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,Kidney,ATM,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BP-5173
+TCGA-OD-A75X,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-OD-A75X
+TCGA-BM-6198,TCGA-READ,Rectum Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BM-6198
+TCGA-D5-6539,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,splice_donor_variant,https://portal.gdc.cancer.gov/cases/TCGA-D5-6539
+TCGA-CR-7371,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CR-7371
+TCGA-39-5039,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,splice_region_variant,https://portal.gdc.cancer.gov/cases/TCGA-39-5039
+TCGA-VQ-A94U,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-VQ-A94U
+TCGA-GM-A2DI,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-GM-A2DI
+TCGA-DU-6392,TCGA-LGG,Brain Lower Grade Glioma,Brain,ATR,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-DU-6392
+TCGA-F6-A8O4,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-F6-A8O4
+TCGA-55-7725,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-55-7725
+TCGA-E1-A7YE,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-E1-A7YE
+TCGA-D8-A143,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,splice_donor_variant,https://portal.gdc.cancer.gov/cases/TCGA-D8-A143
+TCGA-YL-A8HL,TCGA-PRAD,Prostate Adenocarcinoma,Prostate,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-YL-A8HL
+TCGA-IB-7646,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-IB-7646
+TCGA-E9-A1ND,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-E9-A1ND
+TCGA-BR-4267,TCGA-STAD,Stomach Adenocarcinoma,Stomach,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-4267
+TCGA-77-A5G3,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,ATR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-77-A5G3
+TCGA-43-2578,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,PTEN,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-43-2578
+TCGA-42-2591,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-42-2591
+TCGA-21-1079,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,ATM,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-21-1079
+TCGA-NJ-A55O,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-NJ-A55O
+TCGA-HT-7604,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-HT-7604
+TCGA-A2-A0YK,TCGA-BRCA,Breast Invasive Carcinoma,Breast,ATM,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-A2-A0YK
+TCGA-06-0213,TCGA-GBM,Glioblastoma Multiforme,Brain,PTEN,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-06-0213
+TCGA-HV-A5A6,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,TP53,intron_variant,https://portal.gdc.cancer.gov/cases/TCGA-HV-A5A6
+TCGA-CV-6937,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-6937
+TCGA-A7-A0D9,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-A7-A0D9
+TCGA-AR-A24H,TCGA-BRCA,Breast Invasive Carcinoma,Breast,EGFR,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-AR-A24H
+TCGA-LL-A5YN,TCGA-BRCA,Breast Invasive Carcinoma,Breast,ATM,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-LL-A5YN
+TCGA-CV-A45O,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,MYC,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-A45O
+TCGA-EB-A431,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-EB-A431
+TCGA-FD-A6TA,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,MYC,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-FD-A6TA
+TCGA-F4-6856,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-F4-6856
+TCGA-BP-5010,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,Kidney,PTEN,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-BP-5010
+TCGA-06-0155,TCGA-GBM,Glioblastoma Multiforme,Brain,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-06-0155
+TCGA-XF-AAMG,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,ATM,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-XF-AAMG
+TCGA-58-A46N,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-58-A46N
+TCGA-HZ-A77O,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,TP53,5_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-HZ-A77O
+TCGA-77-7335,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,CDK4,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-77-7335
+TCGA-NC-A5HQ,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-NC-A5HQ
+TCGA-49-4487,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-49-4487
+TCGA-CJ-4639,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,Kidney,ATM,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CJ-4639
+TCGA-MP-A4SY,TCGA-LUAD,Lung Adenocarcinoma,Lung,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-MP-A4SY
+TCGA-HC-8216,TCGA-PRAD,Prostate Adenocarcinoma,Prostate,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-HC-8216
+TCGA-AA-A00N,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-A00N
+TCGA-FR-A728,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,CDK4,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-FR-A728
+TCGA-24-1424,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-24-1424
+TCGA-DU-7299,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DU-7299
+TCGA-HU-A4GF,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,5_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-HU-A4GF
+TCGA-86-8075,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,splice_acceptor_variant,https://portal.gdc.cancer.gov/cases/TCGA-86-8075
+TCGA-S9-A6TW,TCGA-LGG,Brain Lower Grade Glioma,Brain,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-S9-A6TW
+TCGA-CV-6950,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-6950
+TCGA-DD-AAED,TCGA-LIHC,Liver Hepatocellular Carcinoma,Liver,TP53,5_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-DD-AAED
+TCGA-D8-A1XS,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-D8-A1XS
+TCGA-BR-4357,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-4357
+TCGA-FD-A3B5,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-FD-A3B5
+TCGA-A3-3308,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,Kidney,PTEN,splice_donor_variant,https://portal.gdc.cancer.gov/cases/TCGA-A3-3308
+TCGA-50-5944,TCGA-LUAD,Lung Adenocarcinoma,Lung,EGFR,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-50-5944
+TCGA-18-3421,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-18-3421
+TCGA-FD-A43P,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,ATM,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-FD-A43P
+TCGA-KC-A4BV,TCGA-PRAD,Prostate Adenocarcinoma,Prostate,PTEN,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-KC-A4BV
+TCGA-D8-A13Z,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PTEN,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-D8-A13Z
+TCGA-CR-7401,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,PIK3CA,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CR-7401
+TCGA-AA-3679,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3679
+TCGA-F5-6702,TCGA-READ,Rectum Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-F5-6702
+TCGA-50-6592,TCGA-LUAD,Lung Adenocarcinoma,Lung,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-50-6592
+TCGA-AF-4110,TCGA-READ,Rectum Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AF-4110
+TCGA-13-0905,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,intron_variant,https://portal.gdc.cancer.gov/cases/TCGA-13-0905
+TCGA-GF-A3OT,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,CCNE1,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-GF-A3OT
+TCGA-BR-8370,TCGA-STAD,Stomach Adenocarcinoma,Stomach,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-8370
+TCGA-DY-A1DD,TCGA-READ,Rectum Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DY-A1DD
+TCGA-27-1838,TCGA-GBM,Glioblastoma Multiforme,Brain,PTEN,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-27-1838
+TCGA-K4-A6FZ,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-K4-A6FZ
+TCGA-06-5416,TCGA-GBM,Glioblastoma Multiforme,Brain,ATM,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-06-5416
+TCGA-55-1595,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-55-1595
+TCGA-CM-6678,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CM-6678
+TCGA-NC-A5HO,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-NC-A5HO
+TCGA-46-3768,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-46-3768
+TCGA-24-1467,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-24-1467
+TCGA-HC-7230,TCGA-PRAD,Prostate Adenocarcinoma,Prostate,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-HC-7230
+TCGA-78-7159,TCGA-LUAD,Lung Adenocarcinoma,Lung,ATM,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-78-7159
+TCGA-CK-4951,TCGA-COAD,Colon Adenocarcinoma,Colorectal,CDK4,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-CK-4951
+TCGA-AZ-6608,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,5_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-AZ-6608
+TCGA-85-A511,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-85-A511
+TCGA-VP-A87H,TCGA-PRAD,Prostate Adenocarcinoma,Prostate,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-VP-A87H
+TCGA-A2-A04W,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-A2-A04W
+TCGA-S9-A6WQ,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-S9-A6WQ
+TCGA-56-8504,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-56-8504
+TCGA-AR-A24M,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AR-A24M
+TCGA-AA-3496,TCGA-COAD,Colon Adenocarcinoma,Colorectal,ATR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3496
+TCGA-QG-A5YV,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-QG-A5YV
+TCGA-E7-A5KE,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,ATR,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-E7-A5KE
+TCGA-US-A779,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-US-A779
+TCGA-28-1746,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-28-1746
+TCGA-AZ-4616,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-AZ-4616
+TCGA-13-0757,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-13-0757
+TCGA-A8-A095,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-A8-A095
+TCGA-44-3917,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-44-3917
+TCGA-GN-A265,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,EGFR,intron_variant,https://portal.gdc.cancer.gov/cases/TCGA-GN-A265
+TCGA-DU-6392,TCGA-LGG,Brain Lower Grade Glioma,Brain,ATM,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-DU-6392
+TCGA-G4-6588,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PTEN,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-G4-6588
+TCGA-24-1104,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-24-1104
+TCGA-FR-A8YC,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,CDK6,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-FR-A8YC
+TCGA-AC-A6IW,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AC-A6IW
+TCGA-D3-A8GI,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,PARP1,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-D3-A8GI
+TCGA-A2-A0EQ,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-A2-A0EQ
+TCGA-62-8394,TCGA-LUAD,Lung Adenocarcinoma,Lung,EGFR,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-62-8394
+TCGA-53-7626,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-53-7626
+TCGA-AG-A01W,TCGA-READ,Rectum Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AG-A01W
+TCGA-A2-A0YC,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-A2-A0YC
+TCGA-K4-A5RJ,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-K4-A5RJ
+TCGA-EE-A2GC,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-EE-A2GC
+TCGA-68-8251,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-68-8251
+TCGA-AD-6899,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AD-6899
+TCGA-VQ-A91E,TCGA-STAD,Stomach Adenocarcinoma,Stomach,ATM,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-VQ-A91E
+TCGA-34-2609,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,PARP1,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-34-2609
+TCGA-2L-AAQE,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-2L-AAQE
+TCGA-AA-3986,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3986
+TCGA-2F-A9KW,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-2F-A9KW
+TCGA-13-0887,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-13-0887
+TCGA-12-1088,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,splice_acceptor_variant,https://portal.gdc.cancer.gov/cases/TCGA-12-1088
+TCGA-AG-A023,TCGA-READ,Rectum Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AG-A023
+TCGA-55-8205,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-55-8205
+TCGA-19-5959,TCGA-GBM,Glioblastoma Multiforme,Brain,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-19-5959
+TCGA-E7-A7DU,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,ATR,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-E7-A7DU
+TCGA-DD-A39Y,TCGA-LIHC,Liver Hepatocellular Carcinoma,Liver,ATM,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-DD-A39Y
+TCGA-F4-6808,TCGA-COAD,Colon Adenocarcinoma,Colorectal,ATM,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-F4-6808
+TCGA-BH-A0GY,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BH-A0GY
+TCGA-55-7914,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-55-7914
+TCGA-AY-5543,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AY-5543
+TCGA-D5-5540,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-D5-5540
+TCGA-E1-5305,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-E1-5305
+TCGA-29-1762,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-29-1762
+TCGA-55-6969,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-55-6969
+TCGA-2J-AABO,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-2J-AABO
+TCGA-77-8154,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-77-8154
+TCGA-VP-A876,TCGA-PRAD,Prostate Adenocarcinoma,Prostate,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-VP-A876
+TCGA-BH-A0DX,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BH-A0DX
+TCGA-A2-A25D,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-A2-A25D
+TCGA-S9-A6WQ,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-S9-A6WQ
+TCGA-CG-5722,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CG-5722
+TCGA-CG-5733,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PIK3CA,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CG-5733
+TCGA-AG-3742,TCGA-READ,Rectum Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AG-3742
+TCGA-QA-A7B7,TCGA-LIHC,Liver Hepatocellular Carcinoma,Liver,PTEN,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-QA-A7B7
+TCGA-76-4928,TCGA-GBM,Glioblastoma Multiforme,Brain,PIK3CA,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-76-4928
+TCGA-GV-A3QI,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,ATM,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-GV-A3QI
+TCGA-A8-A06R,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-A8-A06R
+TCGA-BH-A0HN,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-BH-A0HN
+TCGA-60-2707,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-60-2707
+TCGA-DU-6392,TCGA-LGG,Brain Lower Grade Glioma,Brain,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-DU-6392
+TCGA-55-7283,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-55-7283
+TCGA-BR-4363,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-4363
+TCGA-A8-A08R,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-A8-A08R
+TCGA-B0-4710,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,Kidney,CCNE1,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-B0-4710
+TCGA-AR-A255,TCGA-BRCA,Breast Invasive Carcinoma,Breast,ATM,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-AR-A255
+TCGA-BR-8059,TCGA-STAD,Stomach Adenocarcinoma,Stomach,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-8059
+TCGA-14-1456,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-14-1456
+TCGA-85-8354,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,splice_donor_variant,https://portal.gdc.cancer.gov/cases/TCGA-85-8354
+TCGA-P3-A6T0,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-P3-A6T0
+TCGA-14-1827,TCGA-GBM,Glioblastoma Multiforme,Brain,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-14-1827
+TCGA-B6-A0I5,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-B6-A0I5
+TCGA-DK-AA6R,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DK-AA6R
+TCGA-H8-A6C1,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,TP53,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-H8-A6C1
+TCGA-BT-A20V,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,WEE1,inframe_deletion,https://portal.gdc.cancer.gov/cases/TCGA-BT-A20V
+TCGA-DQ-5629,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DQ-5629
+TCGA-62-8397,TCGA-LUAD,Lung Adenocarcinoma,Lung,EGFR,inframe_insertion,https://portal.gdc.cancer.gov/cases/TCGA-62-8397
+TCGA-EI-6508,TCGA-READ,Rectum Adenocarcinoma,Colorectal,TP53,splice_donor_variant,https://portal.gdc.cancer.gov/cases/TCGA-EI-6508
+TCGA-CM-6167,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CM-6167
+TCGA-K7-AAU7,TCGA-LIHC,Liver Hepatocellular Carcinoma,Liver,TP53,5_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-K7-AAU7
+TCGA-D6-A6EP,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-D6-A6EP
+TCGA-75-6214,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-75-6214
+TCGA-P5-A5EZ,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-P5-A5EZ
+TCGA-F5-6814,TCGA-READ,Rectum Adenocarcinoma,Colorectal,ATR,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-F5-6814
+TCGA-BR-8686,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PIK3CA,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-8686
+TCGA-D9-A6EC,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,EGFR,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-D9-A6EC
+TCGA-HZ-A9TJ,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-HZ-A9TJ
+TCGA-CV-7407,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-7407
+TCGA-AZ-6606,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AZ-6606
+TCGA-TQ-A7RJ,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-TQ-A7RJ
+TCGA-BR-4184,TCGA-STAD,Stomach Adenocarcinoma,Stomach,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-4184
+TCGA-86-8280,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-86-8280
+TCGA-C8-A131,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-C8-A131
+TCGA-AN-A0FL,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,splice_acceptor_variant,https://portal.gdc.cancer.gov/cases/TCGA-AN-A0FL
+TCGA-S9-A6WN,TCGA-LGG,Brain Lower Grade Glioma,Brain,PIK3CA,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-S9-A6WN
+TCGA-AD-6901,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AD-6901
+TCGA-A2-A04T,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-A2-A04T
+TCGA-78-7536,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-78-7536
+TCGA-KK-A8I6,TCGA-PRAD,Prostate Adenocarcinoma,Prostate,PTEN,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-KK-A8I6
+TCGA-A6-2685,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,intron_variant,https://portal.gdc.cancer.gov/cases/TCGA-A6-2685
+TCGA-CN-6024,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CN-6024
+TCGA-AA-A02J,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-A02J
+TCGA-VQ-A8PT,TCGA-STAD,Stomach Adenocarcinoma,Stomach,WEE1,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-VQ-A8PT
+TCGA-R5-A7ZI,TCGA-STAD,Stomach Adenocarcinoma,Stomach,ATM,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-R5-A7ZI
+TCGA-CK-4951,TCGA-COAD,Colon Adenocarcinoma,Colorectal,AURKA,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-CK-4951
+TCGA-AA-3511,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3511
+TCGA-BH-A18Q,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-BH-A18Q
+TCGA-50-5044,TCGA-LUAD,Lung Adenocarcinoma,Lung,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-50-5044
+TCGA-AA-3664,TCGA-COAD,Colon Adenocarcinoma,Colorectal,ATR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3664
+TCGA-CS-6667,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CS-6667
+TCGA-CV-5966,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-5966
+TCGA-63-A5MP,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-63-A5MP
+TCGA-QK-AA3K,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-QK-AA3K
+TCGA-22-4607,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-22-4607
+TCGA-ER-A19E,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-ER-A19E
+TCGA-17-Z026,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-17-Z026
+TCGA-DD-AAC8,TCGA-LIHC,Liver Hepatocellular Carcinoma,Liver,EGFR,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-DD-AAC8
+TCGA-CV-6948,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-6948
+TCGA-AA-A03F,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-A03F
+TCGA-24-2036,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-24-2036
+TCGA-AG-A002,TCGA-READ,Rectum Adenocarcinoma,Colorectal,MDM2,intron_variant,https://portal.gdc.cancer.gov/cases/TCGA-AG-A002
+TCGA-AO-A12A,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AO-A12A
+TCGA-24-0982,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-24-0982
+TCGA-76-6656,TCGA-GBM,Glioblastoma Multiforme,Brain,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-76-6656
+TCGA-UY-A78L,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-UY-A78L
+TCGA-NH-A6GC,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-NH-A6GC
+TCGA-CI-6620,TCGA-READ,Rectum Adenocarcinoma,Colorectal,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-CI-6620
+TCGA-F4-6806,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-F4-6806
+TCGA-ER-A19W,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,PIK3CA,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-ER-A19W
+TCGA-18-3411,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-18-3411
+TCGA-51-4079,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-51-4079
+TCGA-AZ-6601,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,splice_region_variant,https://portal.gdc.cancer.gov/cases/TCGA-AZ-6601
+TCGA-GV-A40G,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-GV-A40G
+TCGA-CV-6955,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-6955
+TCGA-13-0804,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-13-0804
+TCGA-EE-A17X,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,ATR,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-EE-A17X
+TCGA-23-1110,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-23-1110
+TCGA-P3-A6T5,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-P3-A6T5
+TCGA-05-4405,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-05-4405
+TCGA-06-1804,TCGA-GBM,Glioblastoma Multiforme,Brain,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-06-1804
+TCGA-EI-6882,TCGA-READ,Rectum Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-EI-6882
+TCGA-32-4213,TCGA-GBM,Glioblastoma Multiforme,Brain,PTEN,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-32-4213
+TCGA-CV-7250,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,CDK4,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-7250
+TCGA-TM-A7CA,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-TM-A7CA
+TCGA-13-1491,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-13-1491
+TCGA-A8-A09Q,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-A8-A09Q
+TCGA-BB-4224,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-BB-4224
+TCGA-E9-A1RH,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-E9-A1RH
+TCGA-77-7139,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-77-7139
+TCGA-24-2261,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,MYC,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-24-2261
+TCGA-BF-AAP2,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,TP53,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-BF-AAP2
+TCGA-CG-4442,TCGA-STAD,Stomach Adenocarcinoma,Stomach,ATR,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-CG-4442
+TCGA-02-2485,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-02-2485
+TCGA-19-2625,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-19-2625
+TCGA-F7-A624,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-F7-A624
+TCGA-A6-6138,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-A6-6138
+TCGA-09-1673,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-09-1673
+TCGA-C8-A278,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-C8-A278
+TCGA-BR-6452,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-6452
+TCGA-A2-A04U,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-A2-A04U
+TCGA-19-1390,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-19-1390
+TCGA-CN-A641,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CN-A641
+TCGA-06-6695,TCGA-GBM,Glioblastoma Multiforme,Brain,EGFR,inframe_insertion,https://portal.gdc.cancer.gov/cases/TCGA-06-6695
+TCGA-25-2042,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,splice_region_variant,https://portal.gdc.cancer.gov/cases/TCGA-25-2042
+TCGA-BT-A20O,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BT-A20O
+TCGA-ER-A19K,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,ATM,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-ER-A19K
+TCGA-44-2661,TCGA-LUAD,Lung Adenocarcinoma,Lung,EGFR,inframe_deletion,https://portal.gdc.cancer.gov/cases/TCGA-44-2661
+TCGA-FZ-5924,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-FZ-5924
+TCGA-44-7662,TCGA-LUAD,Lung Adenocarcinoma,Lung,PTEN,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-44-7662
+TCGA-AR-A0U2,TCGA-BRCA,Breast Invasive Carcinoma,Breast,AURKA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AR-A0U2
+TCGA-04-1542,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-04-1542
+TCGA-A2-A0T7,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-A2-A0T7
+TCGA-AG-A002,TCGA-READ,Rectum Adenocarcinoma,Colorectal,ATR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AG-A002
+TCGA-CD-8531,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CD-8531
+TCGA-AA-A02F,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-A02F
+TCGA-78-7155,TCGA-LUAD,Lung Adenocarcinoma,Lung,ATR,intron_variant,https://portal.gdc.cancer.gov/cases/TCGA-78-7155
+TCGA-51-4080,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-51-4080
+TCGA-AR-A24Q,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-AR-A24Q
+TCGA-CV-A45Z,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,splice_acceptor_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-A45Z
+TCGA-24-1425,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-24-1425
+TCGA-NK-A7XE,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,splice_acceptor_variant,https://portal.gdc.cancer.gov/cases/TCGA-NK-A7XE
+TCGA-QH-A870,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-QH-A870
+TCGA-RD-A8NB,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-RD-A8NB
+TCGA-A6-6650,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-A6-6650
+TCGA-DM-A28E,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DM-A28E
+TCGA-06-0744,TCGA-GBM,Glioblastoma Multiforme,Brain,ATR,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-06-0744
+TCGA-MP-A4T9,TCGA-LUAD,Lung Adenocarcinoma,Lung,EGFR,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-MP-A4T9
+TCGA-97-A4M6,TCGA-LUAD,Lung Adenocarcinoma,Lung,EGFR,inframe_deletion,https://portal.gdc.cancer.gov/cases/TCGA-97-A4M6
+TCGA-FD-A3SL,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,ATM,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-FD-A3SL
+TCGA-ZF-A9RF,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,ATM,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-ZF-A9RF
+TCGA-ZF-AA53,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-ZF-AA53
+TCGA-13-A5FU,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-13-A5FU
+TCGA-AD-6965,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-AD-6965
+TCGA-D8-A1JF,TCGA-BRCA,Breast Invasive Carcinoma,Breast,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-D8-A1JF
+TCGA-06-5416,TCGA-GBM,Glioblastoma Multiforme,Brain,ATR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-06-5416
+TCGA-55-7815,TCGA-LUAD,Lung Adenocarcinoma,Lung,ATM,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-55-7815
+TCGA-22-5473,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,ATM,splice_acceptor_variant,https://portal.gdc.cancer.gov/cases/TCGA-22-5473
+TCGA-10-0930,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,PTEN,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-10-0930
+TCGA-55-7910,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-55-7910
+TCGA-81-5911,TCGA-GBM,Glioblastoma Multiforme,Brain,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-81-5911
+TCGA-IB-7651,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,ATR,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-IB-7651
+TCGA-S4-A8RP,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-S4-A8RP
+TCGA-55-1594,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-55-1594
+TCGA-B7-A5TK,TCGA-STAD,Stomach Adenocarcinoma,Stomach,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-B7-A5TK
+TCGA-AA-3663,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3663
+TCGA-D8-A1JK,TCGA-BRCA,Breast Invasive Carcinoma,Breast,MYC,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-D8-A1JK
+TCGA-HZ-7926,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-HZ-7926
+TCGA-42-2589,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-42-2589
+TCGA-3A-A9I7,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-3A-A9I7
+TCGA-DK-A3WW,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DK-A3WW
+TCGA-85-8052,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-85-8052
+TCGA-CA-6717,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CA-6717
+TCGA-CV-7101,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,ATR,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-7101
+TCGA-ER-A19S,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,EGFR,intron_variant,https://portal.gdc.cancer.gov/cases/TCGA-ER-A19S
+TCGA-22-5478,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-22-5478
+TCGA-E2-A1IO,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-E2-A1IO
+TCGA-17-Z037,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-17-Z037
+TCGA-AA-3837,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3837
+TCGA-DD-AACU,TCGA-LIHC,Liver Hepatocellular Carcinoma,Liver,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DD-AACU
+TCGA-F4-6461,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-F4-6461
+TCGA-F5-6814,TCGA-READ,Rectum Adenocarcinoma,Colorectal,WEE1,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-F5-6814
+TCGA-AA-3696,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3696
+TCGA-56-7730,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-56-7730
+TCGA-09-1674,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-09-1674
+TCGA-4Z-AA86,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-4Z-AA86
+TCGA-CA-6718,TCGA-COAD,Colon Adenocarcinoma,Colorectal,ATR,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-CA-6718
+TCGA-61-1903,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-61-1903
+TCGA-AA-3715,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PARP1,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3715
+TCGA-IB-8127,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-IB-8127
+TCGA-AA-3861,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3861
+TCGA-HT-8104,TCGA-LGG,Brain Lower Grade Glioma,Brain,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-HT-8104
+TCGA-LT-A5Z6,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,PIK3CA,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-LT-A5Z6
+TCGA-F5-6814,TCGA-READ,Rectum Adenocarcinoma,Colorectal,PTEN,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-F5-6814
+TCGA-AG-A014,TCGA-READ,Rectum Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AG-A014
+TCGA-14-1034,TCGA-GBM,Glioblastoma Multiforme,Brain,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-14-1034
+TCGA-73-4658,TCGA-LUAD,Lung Adenocarcinoma,Lung,PTEN,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-73-4658
+TCGA-2J-AABT,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-2J-AABT
+TCGA-49-4510,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-49-4510
+TCGA-13-0910,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-13-0910
+TCGA-CV-A45Z,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-A45Z
+TCGA-D7-6526,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-D7-6526
+TCGA-E9-A248,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,intron_variant,https://portal.gdc.cancer.gov/cases/TCGA-E9-A248
+TCGA-95-7567,TCGA-LUAD,Lung Adenocarcinoma,Lung,ATM,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-95-7567
+TCGA-CG-5721,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CG-5721
+TCGA-ZF-AA51,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-ZF-AA51
+TCGA-HU-A4H0,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-HU-A4H0
+TCGA-21-1077,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,splice_region_variant,https://portal.gdc.cancer.gov/cases/TCGA-21-1077
+TCGA-MP-A4TF,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-MP-A4TF
+TCGA-06-2561,TCGA-GBM,Glioblastoma Multiforme,Brain,EGFR,intron_variant,https://portal.gdc.cancer.gov/cases/TCGA-06-2561
+TCGA-EE-A29S,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,ATM,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-EE-A29S
+TCGA-BP-5195,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,Kidney,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-BP-5195
+TCGA-IB-7891,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-IB-7891
+TCGA-A2-A0T2,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-A2-A0T2
+TCGA-28-2509,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-28-2509
+TCGA-41-2571,TCGA-GBM,Glioblastoma Multiforme,Brain,PTEN,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-41-2571
+TCGA-A2-A04T,TCGA-BRCA,Breast Invasive Carcinoma,Breast,EGFR,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-A2-A04T
+TCGA-FB-A7DR,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-FB-A7DR
+TCGA-QK-A6VB,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-QK-A6VB
+TCGA-YD-A9TA,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,MYC,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-YD-A9TA
+TCGA-HC-7230,TCGA-PRAD,Prostate Adenocarcinoma,Prostate,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-HC-7230
+TCGA-RB-A7B8,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,PIK3CA,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-RB-A7B8
+TCGA-06-0125,TCGA-GBM,Glioblastoma Multiforme,Brain,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-06-0125
+TCGA-CR-7386,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-CR-7386
+TCGA-HT-7884,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-HT-7884
+TCGA-CV-5976,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-5976
+TCGA-DK-A3X2,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-DK-A3X2
+TCGA-VQ-AA68,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-VQ-AA68
+TCGA-C8-A1HM,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PARP1,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-C8-A1HM
+TCGA-BH-A0HF,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PARP1,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-BH-A0HF
+TCGA-CK-4951,TCGA-COAD,Colon Adenocarcinoma,Colorectal,EGFR,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-CK-4951
+TCGA-D7-6525,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-D7-6525
+TCGA-CV-5436,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-CV-5436
+TCGA-BR-8361,TCGA-STAD,Stomach Adenocarcinoma,Stomach,ATR,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-8361
+TCGA-HT-7479,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-HT-7479
+TCGA-G4-6294,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-G4-6294
+TCGA-26-1442,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-26-1442
+TCGA-FG-A4MU,TCGA-LGG,Brain Lower Grade Glioma,Brain,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-FG-A4MU
+TCGA-61-1740,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,PTEN,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-61-1740
+TCGA-AG-3892,TCGA-READ,Rectum Adenocarcinoma,Colorectal,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-AG-3892
+TCGA-CD-A489,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CD-A489
+TCGA-C8-A12T,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-C8-A12T
+TCGA-G4-6293,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-G4-6293
+TCGA-WA-A7GZ,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-WA-A7GZ
+TCGA-BR-6452,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PIK3CA,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-6452
+TCGA-13-1492,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,PTEN,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-13-1492
+TCGA-CI-6622,TCGA-READ,Rectum Adenocarcinoma,Colorectal,PTEN,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CI-6622
+TCGA-GD-A6C6,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-GD-A6C6
+TCGA-D8-A1XO,TCGA-BRCA,Breast Invasive Carcinoma,Breast,ATM,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-D8-A1XO
+TCGA-55-8092,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-55-8092
+TCGA-61-1910,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-61-1910
+TCGA-FR-A726,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,PARP1,intron_variant,https://portal.gdc.cancer.gov/cases/TCGA-FR-A726
+TCGA-CN-6996,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CN-6996
+TCGA-HT-7478,TCGA-LGG,Brain Lower Grade Glioma,Brain,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-HT-7478
+TCGA-BR-7851,TCGA-STAD,Stomach Adenocarcinoma,Stomach,ATM,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-7851
+TCGA-44-A47A,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-44-A47A
+TCGA-BR-8077,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-8077
+TCGA-VQ-A8PB,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-VQ-A8PB
+TCGA-CQ-5326,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CQ-5326
+TCGA-FD-A3SN,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,CDK6,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-FD-A3SN
+TCGA-12-0662,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,splice_region_variant,https://portal.gdc.cancer.gov/cases/TCGA-12-0662
+TCGA-86-A456,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-86-A456
+TCGA-43-3920,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,PTEN,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-43-3920
+TCGA-CM-6679,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,intron_variant,https://portal.gdc.cancer.gov/cases/TCGA-CM-6679
+TCGA-E9-A1N8,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-E9-A1N8
+TCGA-D8-A1XM,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-D8-A1XM
+TCGA-69-7978,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-69-7978
+TCGA-17-Z061,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-17-Z061
+TCGA-A6-4105,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-A6-4105
+TCGA-A6-2672,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PTEN,splice_donor_variant,https://portal.gdc.cancer.gov/cases/TCGA-A6-2672
+TCGA-29-1771,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-29-1771
+TCGA-13-1404,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-13-1404
+TCGA-18-3407,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,PIK3CA,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-18-3407
+TCGA-DB-5270,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-DB-5270
+TCGA-55-7994,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-55-7994
+TCGA-CG-4460,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CG-4460
+TCGA-05-4398,TCGA-LUAD,Lung Adenocarcinoma,Lung,ATR,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-05-4398
+TCGA-AZ-4616,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AZ-4616
+TCGA-CV-7097,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-7097
+TCGA-E1-5304,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-E1-5304
+TCGA-HT-7686,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-HT-7686
+TCGA-DH-A7UU,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DH-A7UU
+TCGA-T3-A92M,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,splice_donor_variant,https://portal.gdc.cancer.gov/cases/TCGA-T3-A92M
+TCGA-ER-A19W,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,CDK4,5_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-ER-A19W
+TCGA-B4-5835,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,Kidney,ATR,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-B4-5835
+TCGA-30-1856,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-30-1856
+TCGA-DB-A4XE,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-DB-A4XE
+TCGA-64-5774,TCGA-LUAD,Lung Adenocarcinoma,Lung,CCNE1,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-64-5774
+TCGA-64-5815,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-64-5815
+TCGA-CD-8529,TCGA-STAD,Stomach Adenocarcinoma,Stomach,ATR,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-CD-8529
+TCGA-AA-3947,TCGA-COAD,Colon Adenocarcinoma,Colorectal,CCNE1,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3947
+TCGA-D7-6527,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-D7-6527
+TCGA-H7-8501,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-H7-8501
+TCGA-XF-A8HI,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-XF-A8HI
+TCGA-FD-A62N,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-FD-A62N
+TCGA-55-A48Z,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-55-A48Z
+TCGA-CM-4743,TCGA-COAD,Colon Adenocarcinoma,Colorectal,CCNE1,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CM-4743
+TCGA-CZ-5986,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,Kidney,ATM,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CZ-5986
+TCGA-49-AAR3,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-49-AAR3
+TCGA-60-2720,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-60-2720
+TCGA-AR-A1AS,TCGA-BRCA,Breast Invasive Carcinoma,Breast,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AR-A1AS
+TCGA-AA-3715,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3715
+TCGA-IQ-A61H,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-IQ-A61H
+TCGA-CF-A47X,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CF-A47X
+TCGA-3P-A9WA,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-3P-A9WA
+TCGA-CF-A47V,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,ATR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CF-A47V
+TCGA-06-A7TL,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-06-A7TL
+TCGA-A8-A09G,TCGA-BRCA,Breast Invasive Carcinoma,Breast,ATM,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-A8-A09G
+TCGA-56-8307,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-56-8307
+TCGA-CG-4474,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CG-4474
+TCGA-AG-4001,TCGA-READ,Rectum Adenocarcinoma,Colorectal,TP53,intron_variant,https://portal.gdc.cancer.gov/cases/TCGA-AG-4001
+TCGA-NC-A5HD,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-NC-A5HD
+TCGA-AG-A002,TCGA-READ,Rectum Adenocarcinoma,Colorectal,ATR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AG-A002
+TCGA-BH-A201,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-BH-A201
+TCGA-55-8620,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-55-8620
+TCGA-F5-6571,TCGA-READ,Rectum Adenocarcinoma,Colorectal,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-F5-6571
+TCGA-GN-A266,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-GN-A266
+TCGA-ED-A7XP,TCGA-LIHC,Liver Hepatocellular Carcinoma,Liver,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-ED-A7XP
+TCGA-E9-A1N5,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-E9-A1N5
+TCGA-FB-AAQ1,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-FB-AAQ1
+TCGA-20-1687,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-20-1687
+TCGA-LL-A50Y,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-LL-A50Y
+TCGA-DK-AA6Q,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DK-AA6Q
+TCGA-85-8049,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,ATR,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-85-8049
+TCGA-EJ-8472,TCGA-PRAD,Prostate Adenocarcinoma,Prostate,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-EJ-8472
+TCGA-86-8056,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-86-8056
+TCGA-AG-A02N,TCGA-READ,Rectum Adenocarcinoma,Colorectal,PIK3CA,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-AG-A02N
+TCGA-71-8520,TCGA-LUAD,Lung Adenocarcinoma,Lung,EGFR,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-71-8520
+TCGA-D5-6927,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PTEN,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-D5-6927
+TCGA-QG-A5Z1,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-QG-A5Z1
+TCGA-13-0923,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,splice_donor_variant,https://portal.gdc.cancer.gov/cases/TCGA-13-0923
+TCGA-3A-A9IZ,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-3A-A9IZ
+TCGA-GF-A6C8,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,ATR,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-GF-A6C8
+TCGA-FJ-A3ZF,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,CDK4,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-FJ-A3ZF
+TCGA-AG-A02X,TCGA-READ,Rectum Adenocarcinoma,Colorectal,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-AG-A02X
+TCGA-DD-AACQ,TCGA-LIHC,Liver Hepatocellular Carcinoma,Liver,ATR,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-DD-AACQ
+TCGA-85-8048,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-85-8048
+TCGA-DU-8165,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DU-8165
+TCGA-55-7995,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-55-7995
+TCGA-HT-7879,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,intron_variant,https://portal.gdc.cancer.gov/cases/TCGA-HT-7879
+TCGA-22-5472,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,splice_acceptor_variant,https://portal.gdc.cancer.gov/cases/TCGA-22-5472
+TCGA-AZ-4616,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AZ-4616
+TCGA-CM-6168,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CM-6168
+TCGA-02-2485,TCGA-GBM,Glioblastoma Multiforme,Brain,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-02-2485
+TCGA-E2-A158,TCGA-BRCA,Breast Invasive Carcinoma,Breast,MDM2,5_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-E2-A158
+TCGA-CR-7397,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CR-7397
+TCGA-CA-6718,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CA-6718
+TCGA-29-A5NZ,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-29-A5NZ
+TCGA-05-4405,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-05-4405
+TCGA-2J-AAB4,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,TP53,5_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-2J-AAB4
+TCGA-A2-A25C,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-A2-A25C
+TCGA-CG-5721,TCGA-STAD,Stomach Adenocarcinoma,Stomach,ATR,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-CG-5721
+TCGA-CD-5800,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CD-5800
+TCGA-FZ-5926,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-FZ-5926
+TCGA-28-5215,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,splice_region_variant,https://portal.gdc.cancer.gov/cases/TCGA-28-5215
+TCGA-EE-A3J5,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-EE-A3J5
+TCGA-CH-5761,TCGA-PRAD,Prostate Adenocarcinoma,Prostate,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CH-5761
+TCGA-XN-A8T3,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-XN-A8T3
+TCGA-CR-7374,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-CR-7374
+TCGA-D7-A4YU,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-D7-A4YU
+TCGA-13-0807,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-13-0807
+TCGA-29-1695,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-29-1695
+TCGA-17-Z005,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-17-Z005
+TCGA-66-2795,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-66-2795
+TCGA-CV-7238,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-7238
+TCGA-D3-A51T,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-D3-A51T
+TCGA-CD-5800,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CD-5800
+TCGA-DK-A3IN,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,PTEN,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-DK-A3IN
+TCGA-77-6842,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-77-6842
+TCGA-AD-5900,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AD-5900
+TCGA-CV-A468,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-A468
+TCGA-AA-3712,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3712
+TCGA-L4-A4E5,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-L4-A4E5
+TCGA-55-8302,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-55-8302
+TCGA-BP-4770,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,Kidney,TP53,splice_donor_variant,https://portal.gdc.cancer.gov/cases/TCGA-BP-4770
+TCGA-CV-7413,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-7413
+TCGA-BH-A6R9,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-BH-A6R9
+TCGA-AA-A00N,TCGA-COAD,Colon Adenocarcinoma,Colorectal,ATM,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-A00N
+TCGA-NJ-A4YP,TCGA-LUAD,Lung Adenocarcinoma,Lung,ATM,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-NJ-A4YP
+TCGA-BB-A5HY,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-BB-A5HY
+TCGA-E7-A8O8,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,ATM,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-E7-A8O8
+TCGA-YC-A89H,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,WEE1,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-YC-A89H
+TCGA-XD-AAUI,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-XD-AAUI
+TCGA-DU-6392,TCGA-LGG,Brain Lower Grade Glioma,Brain,PARP1,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-DU-6392
+TCGA-A6-6780,TCGA-COAD,Colon Adenocarcinoma,Colorectal,ATM,splice_region_variant,https://portal.gdc.cancer.gov/cases/TCGA-A6-6780
+TCGA-VW-A8FI,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-VW-A8FI
+TCGA-DK-A3WW,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,EGFR,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-DK-A3WW
+TCGA-A2-A0CL,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-A2-A0CL
+TCGA-CJ-4904,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,Kidney,ATM,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-CJ-4904
+TCGA-13-0800,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-13-0800
+TCGA-B6-A0RQ,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-B6-A0RQ
+TCGA-WE-A8K5,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,PTEN,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-WE-A8K5
+TCGA-CR-7388,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CR-7388
+TCGA-EJ-A7NH,TCGA-PRAD,Prostate Adenocarcinoma,Prostate,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-EJ-A7NH
+TCGA-CV-7101,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-7101
+TCGA-D5-5540,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-D5-5540
+TCGA-BC-A10Z,TCGA-LIHC,Liver Hepatocellular Carcinoma,Liver,MYC,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BC-A10Z
+TCGA-YC-A89H,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-YC-A89H
+TCGA-BR-6706,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-6706
+TCGA-60-2709,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,ATM,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-60-2709
+TCGA-34-2604,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-34-2604
+TCGA-IB-AAUQ,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-IB-AAUQ
+TCGA-CR-7373,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CR-7373
+TCGA-CR-7402,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CR-7402
+TCGA-E5-A2PC,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-E5-A2PC
+TCGA-D3-A8GO,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,PTEN,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-D3-A8GO
+TCGA-35-5375,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-35-5375
+TCGA-CV-7432,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,splice_region_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-7432
+TCGA-BR-7717,TCGA-STAD,Stomach Adenocarcinoma,Stomach,ATM,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-7717
+TCGA-HQ-A2OF,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-HQ-A2OF
+TCGA-DD-A118,TCGA-LIHC,Liver Hepatocellular Carcinoma,Liver,ATM,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-DD-A118
+TCGA-97-8552,TCGA-LUAD,Lung Adenocarcinoma,Lung,EGFR,inframe_deletion,https://portal.gdc.cancer.gov/cases/TCGA-97-8552
+TCGA-GC-A3RC,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-GC-A3RC
+TCGA-TQ-A7RK,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-TQ-A7RK
+TCGA-BR-4361,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-4361
+TCGA-DK-AA77,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,EGFR,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-DK-AA77
+TCGA-52-7810,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,ATM,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-52-7810
+TCGA-CV-7427,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-7427
+TCGA-12-1598,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-12-1598
+TCGA-17-Z031,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-17-Z031
+TCGA-05-5425,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-05-5425
+TCGA-BR-8487,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PTEN,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-8487
+TCGA-DM-A28C,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PTEN,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-DM-A28C
+TCGA-DM-A285,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DM-A285
+TCGA-86-A4D0,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-86-A4D0
+TCGA-14-0740,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-14-0740
+TCGA-CV-A45P,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-A45P
+TCGA-D8-A1XZ,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-D8-A1XZ
+TCGA-HR-A2OH,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-HR-A2OH
+TCGA-CA-6717,TCGA-COAD,Colon Adenocarcinoma,Colorectal,ATR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CA-6717
+TCGA-24-1846,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-24-1846
+TCGA-D5-6532,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-D5-6532
+TCGA-AR-A24U,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-AR-A24U
+TCGA-DB-A64X,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-DB-A64X
+TCGA-44-A4SS,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-44-A4SS
+TCGA-CV-5435,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-CV-5435
+TCGA-BR-8286,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-8286
+TCGA-CG-4436,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CG-4436
+TCGA-D6-6826,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-D6-6826
+TCGA-4W-AA9R,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-4W-AA9R
+TCGA-D7-6521,TCGA-STAD,Stomach Adenocarcinoma,Stomach,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-D7-6521
+TCGA-A7-A13G,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-A7-A13G
+TCGA-3A-A9IB,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-3A-A9IB
+TCGA-HT-7603,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-HT-7603
+TCGA-AR-A2LM,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-AR-A2LM
+TCGA-12-0670,TCGA-GBM,Glioblastoma Multiforme,Brain,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-12-0670
+TCGA-CR-7388,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,ATR,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-CR-7388
+TCGA-D3-A51R,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-D3-A51R
+TCGA-CV-7437,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-7437
+TCGA-BF-A3DL,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-BF-A3DL
+TCGA-28-1757,TCGA-GBM,Glioblastoma Multiforme,Brain,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-28-1757
+TCGA-4L-AA1F,TCGA-PRAD,Prostate Adenocarcinoma,Prostate,PTEN,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-4L-AA1F
+TCGA-UY-A9PE,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-UY-A9PE
+TCGA-73-7499,TCGA-LUAD,Lung Adenocarcinoma,Lung,PIK3CA,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-73-7499
+TCGA-BH-A0DE,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BH-A0DE
+TCGA-FP-8099,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-FP-8099
+TCGA-24-2035,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-24-2035
+TCGA-VQ-A8P2,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PARP1,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-VQ-A8P2
+TCGA-56-A5DR,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,MYC,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-56-A5DR
+TCGA-E7-A541,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,ATR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-E7-A541
+TCGA-BR-6452,TCGA-STAD,Stomach Adenocarcinoma,Stomach,ATM,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-6452
+TCGA-74-6573,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-74-6573
+TCGA-06-5416,TCGA-GBM,Glioblastoma Multiforme,Brain,ATM,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-06-5416
+TCGA-EI-6510,TCGA-READ,Rectum Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-EI-6510
+TCGA-DC-6158,TCGA-READ,Rectum Adenocarcinoma,Colorectal,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-DC-6158
+TCGA-XF-AAMX,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,ATR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-XF-AAMX
+TCGA-59-2350,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-59-2350
+TCGA-EI-6917,TCGA-READ,Rectum Adenocarcinoma,Colorectal,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-EI-6917
+TCGA-HZ-8315,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-HZ-8315
+TCGA-43-7658,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-43-7658
+TCGA-AR-A24S,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AR-A24S
+TCGA-LL-A5YP,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-LL-A5YP
+TCGA-22-5485,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-22-5485
+TCGA-AA-3877,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3877
+TCGA-D5-6540,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-D5-6540
+TCGA-44-A4SU,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-44-A4SU
+TCGA-36-2547,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,PARP1,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-36-2547
+TCGA-RC-A6M4,TCGA-LIHC,Liver Hepatocellular Carcinoma,Liver,MDM2,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-RC-A6M4
+TCGA-13-0913,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-13-0913
+TCGA-16-0861,TCGA-GBM,Glioblastoma Multiforme,Brain,PTEN,splice_donor_variant,https://portal.gdc.cancer.gov/cases/TCGA-16-0861
+TCGA-XN-A8T3,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-XN-A8T3
+TCGA-CN-6021,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CN-6021
+TCGA-DU-6392,TCGA-LGG,Brain Lower Grade Glioma,Brain,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DU-6392
+TCGA-CV-7099,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CV-7099
+TCGA-HT-A4DS,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-HT-A4DS
+TCGA-DD-A3A4,TCGA-LIHC,Liver Hepatocellular Carcinoma,Liver,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DD-A3A4
+TCGA-HV-A7OP,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-HV-A7OP
+TCGA-E9-A243,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-E9-A243
+TCGA-QH-A6XA,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-QH-A6XA
+TCGA-NC-A5HR,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-NC-A5HR
+TCGA-IB-7647,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-IB-7647
+TCGA-86-8279,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-86-8279
+TCGA-2F-A9KP,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,MYC,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-2F-A9KP
+TCGA-S9-A7R7,TCGA-LGG,Brain Lower Grade Glioma,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-S9-A7R7
+TCGA-44-7661,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-44-7661
+TCGA-33-4566,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-33-4566
+TCGA-DK-A1AC,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,WEE1,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-DK-A1AC
+TCGA-A2-A04P,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-A2-A04P
+TCGA-55-7815,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-55-7815
+TCGA-NC-A5HK,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-NC-A5HK
+TCGA-BR-7196,TCGA-STAD,Stomach Adenocarcinoma,Stomach,MYC,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BR-7196
+TCGA-63-A5MW,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,ATM,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-63-A5MW
+TCGA-60-2721,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-60-2721
+TCGA-GC-A3RC,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-GC-A3RC
+TCGA-AO-A0JC,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-AO-A0JC
+TCGA-DD-AADA,TCGA-LIHC,Liver Hepatocellular Carcinoma,Liver,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DD-AADA
+TCGA-13-1411,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-13-1411
+TCGA-80-5608,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-80-5608
+TCGA-V1-A9O7,TCGA-PRAD,Prostate Adenocarcinoma,Prostate,ATM,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-V1-A9O7
+TCGA-77-8136,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,ATM,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-77-8136
+TCGA-AA-A02R,TCGA-COAD,Colon Adenocarcinoma,Colorectal,ATR,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-A02R
+TCGA-76-6662,TCGA-GBM,Glioblastoma Multiforme,Brain,PTEN,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-76-6662
+TCGA-90-A4EE,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-90-A4EE
+TCGA-04-1360,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-04-1360
+TCGA-AG-4021,TCGA-READ,Rectum Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AG-4021
+TCGA-A6-5659,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-A6-5659
+TCGA-91-8499,TCGA-LUAD,Lung Adenocarcinoma,Lung,PTEN,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-91-8499
+TCGA-AG-3732,TCGA-READ,Rectum Adenocarcinoma,Colorectal,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-AG-3732
+TCGA-XF-A9T0,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-XF-A9T0
+TCGA-E2-A1IN,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-E2-A1IN
+TCGA-A2-A0T7,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-A2-A0T7
+TCGA-LL-A8F5,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-LL-A8F5
+TCGA-GN-A8LN,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-GN-A8LN
+TCGA-Z5-AAPL,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-Z5-AAPL
+TCGA-DC-6155,TCGA-READ,Rectum Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DC-6155
+TCGA-NJ-A55O,TCGA-LUAD,Lung Adenocarcinoma,Lung,ATR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-NJ-A55O
+TCGA-D8-A27K,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,inframe_deletion,https://portal.gdc.cancer.gov/cases/TCGA-D8-A27K
+TCGA-13-0889,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-13-0889
+TCGA-CG-5727,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CG-5727
+TCGA-93-8067,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-93-8067
+TCGA-KK-A8IG,TCGA-PRAD,Prostate Adenocarcinoma,Prostate,ATM,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-KK-A8IG
+TCGA-CN-6021,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,WEE1,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-CN-6021
+TCGA-15-0742,TCGA-GBM,Glioblastoma Multiforme,Brain,PIK3CA,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-15-0742
+TCGA-A8-A07G,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-A8-A07G
+TCGA-B8-4621,TCGA-KIRC,Kidney Renal Clear Cell Carcinoma,Kidney,PTEN,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-B8-4621
+TCGA-34-8454,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,PIK3CA,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-34-8454
+TCGA-DU-6405,TCGA-LGG,Brain Lower Grade Glioma,Brain,PIK3CA,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-DU-6405
+TCGA-D7-A6F2,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-D7-A6F2
+TCGA-UF-A7JS,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-UF-A7JS
+TCGA-AZ-6605,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AZ-6605
+TCGA-E7-A5KF,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,ATM,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-E7-A5KF
+TCGA-AG-3891,TCGA-READ,Rectum Adenocarcinoma,Colorectal,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-AG-3891
+TCGA-NC-A5HJ,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-NC-A5HJ
+TCGA-F4-6569,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-F4-6569
+TCGA-DM-A282,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DM-A282
+TCGA-AY-6196,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PARP1,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AY-6196
+TCGA-02-0033,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-02-0033
+TCGA-AA-3663,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PTEN,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3663
+TCGA-DM-A288,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-DM-A288
+TCGA-XF-AAMG,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-XF-AAMG
+TCGA-CM-5863,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CM-5863
+TCGA-FW-A3R5,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,EGFR,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-FW-A3R5
+TCGA-05-4382,TCGA-LUAD,Lung Adenocarcinoma,Lung,ATM,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-05-4382
+TCGA-LL-A73Y,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,splice_acceptor_variant,https://portal.gdc.cancer.gov/cases/TCGA-LL-A73Y
+TCGA-XV-A9W5,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-XV-A9W5
+TCGA-DK-A3IU,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DK-A3IU
+TCGA-C8-A131,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-C8-A131
+TCGA-CC-A9FS,TCGA-LIHC,Liver Hepatocellular Carcinoma,Liver,ATR,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-CC-A9FS
+TCGA-95-7948,TCGA-LUAD,Lung Adenocarcinoma,Lung,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-95-7948
+TCGA-E9-A1N9,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-E9-A1N9
+TCGA-86-8054,TCGA-LUAD,Lung Adenocarcinoma,Lung,ATM,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-86-8054
+TCGA-YC-A9TC,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,ATM,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-YC-A9TC
+TCGA-13-0751,TCGA-OV,Ovarian Serous Cystadenocarcinoma,Ovary,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-13-0751
+TCGA-BH-A0EE,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,frameshift_variant,https://portal.gdc.cancer.gov/cases/TCGA-BH-A0EE
+TCGA-BA-A6DF,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,PIK3CA,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-BA-A6DF
+TCGA-A6-2679,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-A6-2679
+TCGA-QH-A6CX,TCGA-LGG,Brain Lower Grade Glioma,Brain,PTEN,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-QH-A6CX
+TCGA-AA-3939,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3939
+TCGA-33-4587,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-33-4587
+TCGA-56-5897,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-56-5897
+TCGA-27-1830,TCGA-GBM,Glioblastoma Multiforme,Brain,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-27-1830
+TCGA-63-6202,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,CCNE1,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-63-6202
+TCGA-EE-A2M5,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,PARP1,upstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-EE-A2M5
+TCGA-KK-A8IG,TCGA-PRAD,Prostate Adenocarcinoma,Prostate,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-KK-A8IG
+TCGA-85-8582,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,PTEN,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-85-8582
+TCGA-E9-A1RD,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-E9-A1RD
+TCGA-E7-A4IJ,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-E7-A4IJ
+TCGA-AG-A00H,TCGA-READ,Rectum Adenocarcinoma,Colorectal,PIK3CA,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-AG-A00H
+TCGA-LB-A7SX,TCGA-PAAD,Pancreatic Adenocarcinoma,Pancreas,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-LB-A7SX
+TCGA-ER-A42K,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,PTEN,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-ER-A42K
+TCGA-06-0881,TCGA-GBM,Glioblastoma Multiforme,Brain,EGFR,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-06-0881
+TCGA-CG-4476,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,5_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-CG-4476
+TCGA-CQ-6218,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CQ-6218
+TCGA-CK-6747,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CK-6747
+TCGA-34-2609,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-34-2609
+TCGA-A6-6650,TCGA-COAD,Colon Adenocarcinoma,Colorectal,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-A6-6650
+TCGA-CF-A5UA,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CF-A5UA
+TCGA-85-A4JB,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,MYC,downstream_gene_variant,https://portal.gdc.cancer.gov/cases/TCGA-85-A4JB
+TCGA-78-7166,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-78-7166
+TCGA-44-7660,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,3_prime_UTR_variant,https://portal.gdc.cancer.gov/cases/TCGA-44-7660
+TCGA-VQ-A8P2,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-VQ-A8P2
+TCGA-AA-3949,TCGA-COAD,Colon Adenocarcinoma,Colorectal,PARP1,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-3949
+TCGA-OL-A6VO,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-OL-A6VO
+TCGA-62-A46Y,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-62-A46Y
+TCGA-FW-A3R5,TCGA-SKCM,Skin Cutaneous Melanoma,Skin,EGFR,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-FW-A3R5
+TCGA-CD-8530,TCGA-STAD,Stomach Adenocarcinoma,Stomach,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CD-8530
+TCGA-K4-A4AB,TCGA-BLCA,Bladder Urothelial Carcinoma,Bladder,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-K4-A4AB
+TCGA-DU-7298,TCGA-LGG,Brain Lower Grade Glioma,Brain,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DU-7298
+TCGA-CK-4947,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-CK-4947
+TCGA-28-6450,TCGA-GBM,Glioblastoma Multiforme,Brain,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-28-6450
+TCGA-DM-A28G,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-DM-A28G
+TCGA-BH-A0AV,TCGA-BRCA,Breast Invasive Carcinoma,Breast,WEE1,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BH-A0AV
+TCGA-BH-A18J,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BH-A18J
+TCGA-75-6206,TCGA-LUAD,Lung Adenocarcinoma,Lung,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-75-6206
+TCGA-UF-A71A,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,Head and Neck,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-UF-A71A
+TCGA-L9-A743,TCGA-LUAD,Lung Adenocarcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-L9-A743
+TCGA-BH-A0WA,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-BH-A0WA
+TCGA-AR-A0TX,TCGA-BRCA,Breast Invasive Carcinoma,Breast,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AR-A0TX
+TCGA-AA-A00N,TCGA-COAD,Colon Adenocarcinoma,Colorectal,ATM,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-AA-A00N
+TCGA-D5-7000,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-D5-7000
+TCGA-RD-A8N1,TCGA-STAD,Stomach Adenocarcinoma,Stomach,PTEN,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-RD-A8N1
+TCGA-B6-A0RG,TCGA-BRCA,Breast Invasive Carcinoma,Breast,PIK3CA,non_coding_transcript_exon_variant,https://portal.gdc.cancer.gov/cases/TCGA-B6-A0RG
+TCGA-D5-6535,TCGA-COAD,Colon Adenocarcinoma,Colorectal,KRAS,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-D5-6535
+TCGA-34-2596,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,stop_gained,https://portal.gdc.cancer.gov/cases/TCGA-34-2596
+TCGA-85-7710,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,missense_variant,https://portal.gdc.cancer.gov/cases/TCGA-85-7710
+TCGA-MX-A5UJ,TCGA-STAD,Stomach Adenocarcinoma,Stomach,ATR,synonymous_variant,https://portal.gdc.cancer.gov/cases/TCGA-MX-A5UJ
+TCGA-85-A53L,TCGA-LUSC,Lung Squamous Cell Carcinoma,Lung,TP53,splice_acceptor_variant,https://portal.gdc.cancer.gov/cases/TCGA-85-A53L
