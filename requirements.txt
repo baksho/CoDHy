@@ -1,0 +1,34 @@
+# CoDHy — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Knowledge Graph
+neo4j
+
+# Biomedical Data Sources
+biopython
+civicpy
+chembl-webresource-client
+reactome2py
+
+# Cheminformatics
+rdkit
+
+# Natural Language Processing
+spacy
+scispacy
+# Biomedical NER model (install separately):
+# pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bionlp13cg_md-0.5.4.tar.gz
+sentence-transformers
+thefuzz
+
+# Graph Analysis & Embeddings
+networkx
+node2vec
+gensim
+
+# Data Handling
+pandas
+requests
+
+# LLM Interface
+ollama
