@@ -41,7 +41,7 @@ CoDHy automates the early-stage drug hypothesis generation pipeline by:
 2. Building a **Neo4j-backed biomedical knowledge graph (KG)** connecting genes, drugs, diseases, pathways, and clinical trials.
 3. Mining the scientific literature (PubMed) to extract novel relationship triples and enrich the KG.
 4. Using **graph embeddings** (Node2Vec) to learn latent representations of biomedical entities.
-5. Generating combination therapy hypotheses via a hybrid LLM + KG approach.
+5. Generating combination therapy hypotheses via a hybrid **Graph-RAG + Node2Vec embeddings + LLM** based approach.
 6. Validating, ranking, and reporting hypotheses with supporting evidence and synergy data.
 
 ---
