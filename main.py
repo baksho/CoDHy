@@ -256,7 +256,7 @@ def run_full_experiment(kg, INPUT_GENE, INPUT_DISEASE, method="Full", num_lit=50
 
     try:
         # Searching PubMed for INPUT_GENE and INPUT_DISEASE
-        if method in ["Full", "KG-Only"]:
+        if method in ["Full", "No-Node2Vec"]:
             print("Fetching dynamic ontology from Neo4j...")
             CURRENT_NODES, CURRENT_RELATIONS = kg.get_ontology_context(target_labels=['Gene', 'Drug', 'Disease'])
             nlp = LiteratureProcessor(existing_nodes=CURRENT_NODES, existing_relations=CURRENT_RELATIONS, email=Entrez.email)
@@ -320,7 +320,7 @@ if __name__ == "__main__":
 
     INPUT_GENE = "ATM"
     INPUT_DISEASE = "Lung Adenocarcinoma"
-    CHOSEN_METHOD = "Full" # Options: "Full", "KG-Only", "LLM-only"
+    CHOSEN_METHOD = "Full" # Options: "Full", "No-Node2Vec", "LLM-only"
     LIT_TO_FETCH = 50
 
     # Hypothesis generate + validate + rank

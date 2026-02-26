@@ -71,7 +71,7 @@ class DrugScreeningAgent:
         implicit_context = []
 
         # 1. Retrieve Explicit Context (GraphRAG)
-        if method in ["Full", "KG-Only"]:
+        if method in ["Full", "No-Node2Vec"]:
             discovery_subgraph = self.kg.get_discovery_subgraph(focus_gene, cancer_type)
             if discovery_subgraph:
                 for item in discovery_subgraph:
