@@ -11,12 +11,10 @@ import json
 import requests
 from Bio import Entrez
 
-OLLAMA_MODEL = "llama3.1"
-
 class ValidationAgent:
     def __init__(self, kg, model_name=None, OLLAMA_BASE_URL="http://localhost:11434/api/generate"):
         self.kg = kg
-        self.model = model_name or OLLAMA_MODEL
+        self.model = model_name or "llama3.1"
         self.api_url = OLLAMA_BASE_URL
         self.email = globals().get("Entrez.email", "basak.suvinava@mh-hannover.de")
         Entrez.email = self.email
@@ -39,12 +37,9 @@ class ValidationAgent:
         found_urls = []
 
         if ne_hits > 0 or nc_hits > 0:
-            if ne_hits:
-                for pmid in ne_ids:
-                    found_urls.append(f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/")
-            if nc_hits:
-                for pmid in nc_ids:
-                    found_urls.append(f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/")
+            all_ids = list(set(ne_ids + nc_ids))
+            for pmid in all_ids:
+                found_urls.append(f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/")
 
             return {
                 "status": "Validated (Literature Exists)",
@@ -84,14 +79,12 @@ class ValidationAgent:
                 print(f"   Skipping invalid data format: {hypo}")
                 continue
 
-            print(f"   -> Reviewing Hypothesis {hypo.get('id', '?')}: {hypo.get('combination', 'Unknown')}")
-
             combo_str = hypo.get('combination', '')
-            # drugs = [d.strip() for d in combo_str.replace("+", ",").split(",") if d.strip()]
             drugs = [d.strip().split()[0] for d in combo_str.replace("+", ",").split(",") if d.strip()]
-
             focus_gene = hypo.get('focus_gene')
             cancer_type = hypo.get('target_disease')
+
+            print(f"   -> Reviewing Hypothesis {hypo.get('id', '?')}: {combo_str}")
 
             combo_check = self.check_combination_evidence(drugs, cancer_type)
 
@@ -105,7 +98,7 @@ class ValidationAgent:
             for drug in drugs:
                 # Optimized query to find all relationships (r) connected to the drug (d)
                 validated_facts = self.kg.get_validated_subgraph(
-                    entities=[drug],
+                    drug_name=drug,
                     focus_gene=focus_gene,
                     cancer_type=cancer_type
                 )
@@ -119,74 +112,79 @@ class ValidationAgent:
                 query = """
                 MATCH (d:Drug)
                 WHERE toLower(d.name) CONTAINS toLower($name)
-
-                // Step 1: Side Effects
-                OPTIONAL MATCH (d)-[:CAUSES_SIDE_EFFECT]->(se:SideEffect)
-                WITH d, collect(DISTINCT se.name)[..25] AS side_effects
-
-                // Step 2: Identify Disease Context
-                OPTIONAL MATCH (dis:Disease)
-                WHERE toLower(dis.name) CONTAINS toLower($cancer_type)
-                  OR toLower($cancer_type) CONTAINS toLower(dis.name)
+                  OR  toLower($name) CONTAINS toLower(d.name)
 
                 OPTIONAL MATCH (g:Gene)
                 WHERE toLower(g.name) CONTAINS toLower($focus_gene)
                   OR toLower($focus_gene) CONTAINS toLower(g.name)
 
-                WITH d, side_effects, dis, g
-                OPTIONAL MATCH p_civic = (d)-[:TREATS|TARGETS|ASSOCIATED_WITH*1..2]-(dis)
-                WHERE all(rel IN relationships(p_civic) WHERE rel.source = "CIViC")
+                WITH d, g
+                OPTIONAL MATCH (d)-[r1]-(:Phase)
+                OPTIONAL MATCH (d)-[r2]-(g)
 
-                WITH d, side_effects, dis, g, collect(DISTINCT p_civic) AS civic_paths
-                OPTIONAL MATCH (d)-[r_chembl_p:REACHED_PHASE]-(:Phase) WHERE r_chembl_p.source = "ChEMBL"
-                OPTIONAL MATCH (d)-[r_chembl_t:TARGETS]-(g) WHERE r_chembl_t.source = "ChEMBL"
+                WITH d, g, (collect(DISTINCT r1.source_url) + collect(DISTINCT r2.source_url)) as phase_urls
+                OPTIONAL MATCH (d)-[r_civic]-(x)
+                WHERE r_civic.source = "CIViC"
 
-                WITH d, side_effects, dis, g, civic_paths, r_chembl_p, r_chembl_t
-                OPTIONAL MATCH (t:ClinicalTrial)-[r1:TESTS_DRUG]-(d) WHERE r1.source = "ClinicalTrials.gov"
-                OPTIONAL MATCH (t)-[r2:TREATS_CONDITION]-(dis) WHERE r2.source = "ClinicalTrials.gov"
-                OPTIONAL MATCH (t)-[r3:INVESTIGATES_TARGET]-(g) WHERE r3.source = "ClinicalTrials.gov"
+                WITH d, g, phase_urls, collect(DISTINCT r_civic.source_url) as civic_urls
+                OPTIONAL MATCH (t:ClinicalTrial)-[r_trial1]-(d)
+                OPTIONAL MATCH (t:ClinicalTrial)-[r_trial2]-(g)
 
-                // Final return with aggregation
-                RETURN d.name, d.max_phase, d.is_withdrawn, side_effects,
-                    [path IN civic_paths | [rel IN relationships(path) | rel.source_url][0]][..3] AS civic_urls,
-                    (collect(DISTINCT r_chembl_p.source_url) + collect(DISTINCT r_chembl_t.source_url))[..3] AS chembl_urls,
-                    (collect(DISTINCT r1.source_url) + collect(DISTINCT r2.source_url) + collect(DISTINCT r3.source_url))[..3] AS trial_urls
+                WITH d, g, phase_urls, civic_urls, (collect(DISTINCT r_trial1.source_url) + collect(DISTINCT r_trial2.source_url)) as trial_urls, collect(DISTINCT t.nct_id) as nct_ids
+                OPTIONAL MATCH (g)-[r_pathway]-(p:Pathway)
+
+                WITH d, g, phase_urls, civic_urls, trial_urls, nct_ids, collect(DISTINCT r_pathway.source_url) as reactome_urls
+                OPTIONAL MATCH (d)-[:CAUSES_SIDE_EFFECT]->(se:SideEffect)
+
+                RETURN
+                    d.name as drug_name,
+                    d.max_phase as phase,
+                    d.is_withdrawn as withdrawn,
+                    g.name as gene_name,
+                    phase_urls,
+                    civic_urls,
+                    trial_urls,
+                    reactome_urls,
+                    collect(DISTINCT se.name)[..15] as side_effects
                 """
                 with self.kg.driver.session() as session:
-                    res = session.run(query, name=drug, focus_gene=focus_gene, cancer_type=cancer_type).data()
-                    if res:
-                        phase = res[0].get('d.max_phase', 0)
-                        withdrawn = res[0].get('d.is_withdrawn', False)
+                    results = session.run(query, name=drug, focus_gene=focus_gene).data()
+                    if results:
+                        res = results[0]
+                        d_name = res['drug_name']
+                        phase = res['phase']
+                        withdrawn = res['withdrawn']
+                        se_list = res['side_effects']
 
-                        hypo['civic_urls'].extend(res[0].get('civic_urls', []))
-                        hypo['chembl_urls'].extend(res[0].get('chembl_urls', []))
-                        hypo['trial_urls'].extend(res[0].get('trial_urls', []))
-                        hypo['reactome_urls'].extend(res[0].get('reactome_urls', []))
+                        def clean_urls(url_list):
+                            return [u for u in url_list if isinstance(u, str) and u.startswith("http")]
 
-                        status = "FDA Approved" if phase == 4 else f"Phase {phase}"
-                        tox_warning = "⚠️ WITHDRAWN" if withdrawn else "Active"
-                        side_effects = res[0].get('side_effects', [])
-                        se_str = f" | Common Side Effects: {', '.join(side_effects)}" if side_effects else ""
+                        hypo['chembl_urls'].extend(clean_urls(res['phase_urls']))
+                        hypo['civic_urls'].extend(clean_urls(res['civic_urls']))
+                        hypo['trial_urls'].extend(clean_urls(res['trial_urls']))
+                        hypo['reactome_urls'].extend(clean_urls(res['reactome_urls']))
+
+                        status_str = f"Phase {phase}" if phase else "Unknown Status"
+                        if withdrawn: status_str += " (WITHDRAWN)"
+                        se_str = ", ".join(se_list) if se_list else "No data"
                         facts_str = f" | Biological Facts: {'; '.join(fact_entries)}" if fact_entries else ""
+                        safety_context.append(f"DRUG: {d_name} | STATUS: {status_str} | SIDE EFFECTS: {se_str} | Biological Facts: {facts_str}")
 
-                        drug_name = res[0].get('d.name', drug)
-                        safety_context.append(f"DRUG: {drug_name} | STATUS: {status} | OTHER FACTS: {tox_warning}, {se_str}, {facts_str}")
+                    else:
+                        safety_context.append(f"DRUG: {drug} | Not found in Knowledge Graph.")
 
-            # Deduplicate the URLs after both drugs have been processed
             hypo['civic_urls'] = list(set(hypo['civic_urls']))
             hypo['chembl_urls'] = list(set(hypo['chembl_urls']))
             hypo['trial_urls'] = list(set(hypo['trial_urls']))
             hypo['reactome_urls'] = list(set(hypo['reactome_urls']))
 
-            safety_str = "\n".join(safety_context) if safety_context else "No specific safety or fact-based data found in the knowledge graph."
+            safety_str = "\n".join(safety_context)
 
             # 3. Prompt for Verdict
-            system_prompt = "You are a clinical auditor. You need to validate the drug combination hypothesis for the given disease and evaluate its propsect."
+            system_prompt = "You are a clinical auditor. You need to validate the drug combination hypothesis for the given disease."
             user_prompt = f"""
             HYPOTHESIS: {combo_str}
             DISEASE: {cancer_type}
-
-            MECHANISM: {hypo.get('mechanism', 'N/A')}
 
             [EVIDENCE CHECK]
             Status: {combo_check['status']}
@@ -199,12 +197,18 @@ class ValidationAgent:
             2. Evaluate Plausibility (Biological sense) (Low/Moderate/High) with detailed reasoning.
             3. Assess Combination Toxicity Risk (Low/Moderate/High) with proper reasoning based on the [EVIDENCE CHECK] and [INDIVIDUAL_DRUG_PROFILES]. If Evidence Status is "Inferred", then you MUST predict the toxicity and state "Predicted based on individual profiles" and explain your reasoning for the overlapping toxicities.
             4. Write a short critique.
-            5. Provide supporting evidences: For every claim, explain the finding and immediately follow it with the relevant URL in brackets.
+            5. Provide supporting evidences:
+              - For every claim, explain the finding.
+              - For citation of you claim, you MUST output the "Real PubMed Hits" listed above in the Evidence Check section.
+              - If the list is empty, WRITE "No direct clinical study found." after your claim and cite no URL.
+              - DO NOT invent new URLs.
 
-            HARD RULES:
-            - DO NOT use numeric placeholders like [1], [2]. Use the actual URL: (https://...). Only give actual related URL, DO NOT HALLUCINATE or DO NOT link unrelated random URLs.
-            - If a specific journal name is not in the context, do not invent one. DO NOT use placeholders like [Journal Name], [Year], or [Source].
-            - If no direct study exists, explicitly state: "Mechanism inferred from drug properties; no direct clinical study found for this specific combination."
+            HARD RULES FOR HALLUCINATION PREVENTION:
+            - DO NOT use numeric placeholders like [1], [2].
+            - DO NOT use placeholders like [Journal Name], [Year], or [Source] etc.
+            - DO NOT generate fake PubMed links (e.g., pubmed.ncbi.nlm.nih.gov/12345678).
+            - DO NOT make up Source Names or IDs.
+            - If you do not see a "http..." link in the context provided above, DO NOT WRITE A URL.
 
             OUTPUT FORMAT (JSON):
             {{
@@ -212,7 +216,7 @@ class ValidationAgent:
                 "plausibility": "(Low/Moderate/High). Reason: ...",
                 "combination_toxicity_risk": "(Low/Moderate/High). Reason: ...",
                 "critique": "...",
-                "supporting_evidence": "Detailed explanation with URL citations..."
+                "supporting_evidence": "..."
             }}
             """
             payload = {
@@ -225,11 +229,9 @@ class ValidationAgent:
 
             try:
                 r = requests.post(self.api_url, json=payload, timeout=300)
-                # Handle potential JSON errors from the Validation LLM as well
                 try:
                     val_data = json.loads(r.json().get("response", "{}"))
                 except:
-                    # Fallback if validation LLM returns bad JSON
                     val_data = {"verdict": "Error", "safety_score": 0, "critique": "Validation agent failed to output JSON."}
 
                 hypo.update(val_data)
@@ -242,12 +244,11 @@ class ValidationAgent:
                 hypo['is_novel_context'] = combo_check['is_novel_context']
 
                 validated_results.append(hypo)
+
             except Exception as e:
                 print(f"Validation Error: {e}")
                 hypo.update({"verdict": "Error", "safety_score": 0})
                 validated_results.append(hypo)
 
         return validated_results
-
-print("ValidationAgent class defined.")
 

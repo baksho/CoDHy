@@ -14,7 +14,7 @@ import requests
 class DrugScreeningAgent:
     def __init__(self, kg, model_name=None, OLLAMA_BASE_URL="http://localhost:11434/api/generate"):
         self.kg = kg
-        self.model = model_name or OLLAMA_MODEL
+        self.model = model_name or "llama3.1"
         self.api_url = OLLAMA_BASE_URL
 
     def check_connection(self):
@@ -27,36 +27,29 @@ class DrugScreeningAgent:
     def _extract_json(self, text):
         """
         Robustly extracts JSON from messy LLM output.
-        Handles Markdown blocks, dictionaries, and raw lists.
         """
-        # print(f"\n--- RAW LLM OUTPUT ---\n{text}\n----------------------\n")
-        # 1. Clean Markdown code blocks
         text = re.sub(r'```json', '', text)
         text = re.sub(r'```', '', text)
         text = text.strip()
 
         result = []
 
-        # 2. Try direct parsing
         try:
             data = json.loads(text)
             if isinstance(data, list):
                 result = data
             elif isinstance(data, dict):
-                # If it's a dict, look for a list inside it
                 found_list = False
                 for key in data:
                     if isinstance(data[key], list):
                         result = data[key]
                         found_list = True
                         break
-                # If no list is found, wrap the single dictionary in a list
                 if not found_list:
                     result = [data]
         except:
             pass
 
-        # 3. Regex Search for List [...] if direct parsing failed
         if not result:
             try:
                 match = re.search(r'\[.*\]', text, re.DOTALL)
@@ -65,7 +58,6 @@ class DrugScreeningAgent:
             except:
                 pass
 
-        # 4. BULLETPROOF FILTER: Ensure it's a list and keep ONLY dictionaries
         if isinstance(result, list):
             clean_list = [x for x in result if isinstance(x, dict)]
             return clean_list
@@ -78,17 +70,19 @@ class DrugScreeningAgent:
         explicit_context = []
         implicit_context = []
 
-        # 1. Retrieve Explicit Context (GraphRAG) - Only if KG or Full is chosen
+        # 1. Retrieve Explicit Context (GraphRAG)
         if method in ["Full", "KG-Only"]:
             discovery_subgraph = self.kg.get_discovery_subgraph(focus_gene, cancer_type)
             if discovery_subgraph:
                 for item in discovery_subgraph:
-                    context = f"{item['s.name']} --[{item['type(r)']}]--> {item['o.name']}"
-                    if item.get('r.confidence'):
-                        context += f" (Conf: {item['r.confidence']})"
+                    # We include the source URL in the context string so the LLM has it available to cite
+                    url_ref = f"[Source: {item.get('r.source', 'KG')} - {item.get('r.source_url', 'No URL')}]"
+                    context = f"{item['s.name']} --[{item['type(r)']}]--> {item['o.name']} {url_ref}"
+                    # if item.get('r.confidence'):
+                    #     context += f" (Conf: {item['r.confidence']})"
                     explicit_context.append(context)
 
-        # 2. Retrieve Implicit Context (Embeddings) - Only if Full or Node2Vec-inclusive is chosen
+        # 2. Retrieve Implicit Context (Embeddings)
         if method == "Full" and embedding_agent:
             similar_nodes = embedding_agent.find_similar_nodes(focus_gene, top_k=5)
             for node in similar_nodes:
@@ -106,7 +100,7 @@ class DrugScreeningAgent:
         else:
             knowledge_instruction = f"Strictly prioritize the provided [EXPLICIT KNOWLEDGE] and [IMPLICIT SIGNALS] for the {method} method."
 
-        system_prompt = "You are an expert AI Biologist performing a {method} analysis."
+        system_prompt = "You are an expert AI Biologist performing a drug screening analysis."
 
         user_prompt = f"""
         TASK: Generate exactly 4 distinct drug combination hypotheses for {cancer_type} targeting {focus_gene}.
@@ -123,16 +117,22 @@ class DrugScreeningAgent:
         {implicit_str}
 
         INSTRUCTIONS:
-        1. You MUST generate a list of exactly 4 hypotheses.
-        2. Use at least one "Implicit Signal" to propose a novel connection.
-        3. Label "rationale_type" appropriately (e.g., "Direct Graph Evidence" if based on [EXPLICIT KNOWLEDGE], "Inferred Similarity" if based on [IMPLICIT SIGNALS], or "LLM Internal Knowledge", otherwise).
-        4. In 'supporting_evidence', provide a 1-2 sentence explanation of why the evidence supports the combination, followed by an existing related URL.
-        5. Each hypothesis must use the focus gene target + a different secondary target/drug.
-        6. Focus on mechanisms like Synthetic Lethality or Resistance Reversal.
+        1. You MUST generate a list of EXACTLY 4 hypotheses.
+        2. If available, use at least one "Implicit Signal" to propose a novel connection.
+        3. Mechanism: Briefly explain the biological logic (e.g., Synthetic Lethality, Resistance Reversal etc.).
+        4. Rationale Type: Choose 'Direct Graph Evidence' if based on [EXPLICIT KNOWLEDGE], 'Inferred Similarity' if based on [IMPLICIT SIGNALS], or 'LLM Internal Knowledge', otherwise.
+        5. Supporting Evidence:
+          - Briefly explain why this works in 3-4 sentences.
+          - CRITICAL: You must cite a URL ONLY if it appears in [EXPLICIT KNOWLEDGE] above.
+          - If the evidence comes from your internal knowledge (LLM-only), DO NOT invent a URL. Write "General biological inference"down the evidence and explain it.
+        6. Each hypothesis MUST use the focus gene target + a different secondary target/drug.
 
-        HARD RULES:
-        - DO NOT use numeric placeholders like [1], [2]. Use the actual URL: (https://...). Only give actual related URL, DO NOT HALLUCINATE or DO NOT link unrelated random URLs.
+        HARD RULES FOR HALLUCINATION PREVENTION:
+        - DO NOT use numeric placeholders like [1], [2].
         - DO NOT use placeholders like [Journal Name], [Year], or [Source] etc.
+        - DO NOT generate fake PubMed links (e.g., pubmed.ncbi.nlm.nih.gov/12345678).
+        - DO NOT make up Source Names or IDs.
+        - If you do not see a "http..." link in the context provided above, DO NOT WRITE A URL.
 
         OUTPUT FORMAT (Strict JSON List of 4 items):
         [
@@ -143,8 +143,8 @@ class DrugScreeningAgent:
                 "focus_gene": "{focus_gene}",
                 "combination": "Drug A + Drug B",
                 "mechanism": "...",
-                "rationale_type": "<Choose one: 'Direct Graph Evidence' if based on [EXPLICIT KNOWLEDGE]; 'Inferred Similarity' if based on [IMPLICIT SIGNALS], or 'LLM Internal Knowledge', otherwise>",
-                "supporting_evidence": "..."
+                "rationale_type": "...",
+                "supporting_evidence": "Explanation... (Citation)"
             }},
             {{
                 "id": 2,
@@ -153,8 +153,8 @@ class DrugScreeningAgent:
                 "focus_gene": "{focus_gene}",
                 "combination": "Drug A + Drug B",
                 "mechanism": "...",
-                "rationale_type": "<Choose one: 'Direct Graph Evidence' if based on [EXPLICIT KNOWLEDGE]; 'Inferred Similarity' if based on [IMPLICIT SIGNALS], or 'LLM Internal Knowledge', otherwise>",
-                "supporting_evidence": "..."
+                "rationale_type": "...",
+                "supporting_evidence": "Explanation... (Citation)"
             }},
             {{
                 "id": 3,
@@ -163,8 +163,8 @@ class DrugScreeningAgent:
                 "focus_gene": "{focus_gene}",
                 "combination": "Drug A + Drug B",
                 "mechanism": "...",
-                "rationale_type": "<Choose one: 'Direct Graph Evidence' if based on [EXPLICIT KNOWLEDGE]; 'Inferred Similarity' if based on [IMPLICIT SIGNALS], or 'LLM Internal Knowledge', otherwise>",
-                "supporting_evidence": "..."
+                "rationale_type": "...",
+                "supporting_evidence": "Explanation... (Citation)"
             }},
             {{
                 "id": 4,
@@ -173,8 +173,8 @@ class DrugScreeningAgent:
                 "focus_gene": "{focus_gene}",
                 "combination": "Drug A + Drug B",
                 "mechanism": "...",
-                "rationale_type": "<Choose one: 'Direct Graph Evidence' if based on [EXPLICIT KNOWLEDGE]; 'Inferred Similarity' if based on [IMPLICIT SIGNALS], or 'LLM Internal Knowledge', otherwise>",
-                "supporting_evidence": "..."
+                "rationale_type": "...",
+                "supporting_evidence": "Explanation... (Citation)"
             }}
         ]
         """
@@ -190,24 +190,18 @@ class DrugScreeningAgent:
             }
         }
 
-        # 4. Retry Logic (Attempt up to 3 times)
         for attempt in range(3):
             try:
                 response = requests.post(self.api_url, json=payload, timeout=300)
                 if response.status_code == 200:
                     resp_text = response.json().get("response", "")
-                    # print(f"      Response Snippet: {resp_text}...")
-                    # print(f"      Response Length: {len(resp_text)}")
-
                     hypotheses = self._extract_json(resp_text)
-
                     if hypotheses and isinstance(hypotheses, list) and len(hypotheses) > 0:
                         print(f"      Successfully generated {len(hypotheses)} hypotheses.")
                         return hypotheses
                     else:
-                        # DEBUG: Print what failed so we can see it
                         print(f"      Attempt {attempt+1} failed to parse JSON.")
-                        print(f"      Raw Output Snippet: {resp_text[:1000]}...")
+                        # print(f"      Raw Output Snippet: {resp_text[:1000]}...")
                 else:
                     print(f"      API Error: {response.status_code}")
 
@@ -216,5 +210,3 @@ class DrugScreeningAgent:
 
         print("Failed to generate hypotheses after 3 attempts.")
         return []
-
-print("DrugScreeningAgent class defined.")

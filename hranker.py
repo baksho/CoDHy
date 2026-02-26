@@ -18,52 +18,31 @@ class RankingAgent:
         skip_words = {'a', 'an', 'and', 'the', 'by', 'of', 'from', 'on', 'in', 'to', 'with', 'activator', 'inhibitor', 'inducer', '(e.g.,'}
         keywords = hypothesis.get('combination', '').replace("+", " ").split()
         keywords = [k.strip() for k in keywords if len(k) > 2 and k.lower() not in skip_words]
-        score = 0.0
 
+        score = 0.0
         focus_gene = hypothesis.get('focus_gene', '')
         cancer_type = hypothesis.get('target_disease', '')
 
-        # PATH-BASED QUERY: Finds direct and indirect (up to 2 hops) connections
-        # This captures (Drug)-[:TARGETS]->(Gene)-[:DRIVES]->(Disease)
         query = """
         MATCH path = (d:Drug)-[r*1..2]-(target)
         WHERE toLower(d.name) IN $kws
           AND (toLower(target.name) CONTAINS toLower($gene)
               OR toLower(target.name) CONTAINS toLower($disease))
-
-        // Extract individual relationships from the path to check layers
         UNWIND relationships(path) AS rel
-        RETURN type(rel) AS rel_type, rel.layer AS layer, length(path) AS hop_count, rel.source as source
-        LIMIT 25
+        RETURN type(rel) AS rel_type, rel.layer AS layer //, length(path) AS hop_count, rel.source as source
+        LIMIT 50
         """
         with self.kg.driver.session() as session:
             kws_lower = [k.lower() for k in keywords]
-            results = session.run(query, kws=kws_lower,
-                             gene=focus_gene, disease=cancer_type).data()
+            results = session.run(query, kws=kws_lower, gene=focus_gene, disease=cancer_type).data()
 
             for res in results:
-                # 2. SCORING WEIGHTS: Validated paths get higher scores than Experimental ones
-                # High weight for Image Schema sources (CIViC, ChEMBL, etc.)
-                # if res['source'] in ['CIViC', 'ChEMBL', 'ClinicalTrials.gov', 'Reactome', 'GDC', 'STRING', 'DrugCentral', 'MyGene', 'DepMap 25Q3']:
-                #     base_score = 2.0 if res['layer'] == 'VALIDATED' else 1.0
-                # elif res['source'] in ['PubMed']:
-                #     base_score = 1.5 if res['layer'] == 'EXPERIMENTAL' else 1.0
-                # else:
-                #     base_score = 0.7
-
-                # # DISTANCE PENALTY: Direct links are worth more than indirect links
-                # # Hop 1 (Direct) = 100% score | Hop 2 (Indirect) = 50% score
-                # distance_multiplier = 1.0 if res['hop_count'] == 1 else 0.8
-
-                # score += (base_score * distance_multiplier)
-
-
                 if res['layer'] == 'VALIDATED':
-                    score += 1.0
+                    score += 2.0
                 elif res['layer'] == 'EXPERIMENTAL':
-                    score += 0.5
+                    score += 1
                 else:
-                    score += 0.2
+                    score += 0.6
 
         return min(score, 10.0)
 
@@ -76,6 +55,15 @@ class RankingAgent:
             h["graph_evidence_score"] = graph_score
             h["ranking_score"] = round((ai_score + graph_score) / 2, 2)
 
+            method = h["method"]
+
+            if method == "LLM-only":
+                h['rationale_type'] = "LLM Internal Knowledge"
+            elif method == "KG-Only" or graph_score >= 5:
+                h['rationale_type'] = "Direct Graph Evidence"
+            elif "Inferred" in h.get('rationale_type', '') or graph_score < 5:
+                 h['rationale_type'] = "Inferred Similarity (Embeddings)"
+
             ne_hits = h.get('ne_hits', 0)
             nc_hits = h.get('nc_hits', 0)
 
@@ -83,9 +71,9 @@ class RankingAgent:
                 calculated_verdict = "Proceed"
             elif ne_hits == 0 or nc_hits == 0:
                 if ai_score >= 6.0 or graph_score >= 6.0:
-                    calculated_verdict = "Proceed (with Caution). Novel combination with less evidence."
+                    calculated_verdict = "Proceed (Novel - Caution)"
                 else:
-                    calculated_verdict = "Caution. Novel combination with almost no evidence in existing data."
+                    calculated_verdict = "Caution (Novel - Low Evidence)"
             elif h["ranking_score"] >= 5.0:
                 calculated_verdict = "Caution"
             else:
@@ -94,10 +82,5 @@ class RankingAgent:
             h['verdict'] = calculated_verdict
 
         hypotheses_sorted = sorted(hypotheses, key=lambda x: x["ranking_score"], reverse=True)
-
-        # Force Variety Rule: If this is the last item and all others were "Proceed",
-        # downgrade this one to "Caution" to ensure a balanced report.
-        # if all(h['verdict'] == "Proceed" for h in hypotheses_sorted):
-        #     hypotheses_sorted[-1]['verdict'] = "Caution"
 
         return hypotheses_sorted
