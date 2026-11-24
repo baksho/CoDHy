@@ -1,0 +1,7 @@
+system,n_hypotheses,evidence_coverage,novel_combination_rate,diversity,citation_precision,runtime_seconds,validated_pipeline
+CoDHy-Full,4,0.5,0.5,1.0,,379.2283462569999,True
+Qwen3-8B-ZeroShot,3,,,1.0,,71.11705661239994,False
+MedGemma-1.5-4B-ZeroShot,3,,,1.0,,71.11705816779995,False
+JSL-MedLlama-3-8B-v9-ZeroShot,3,,,1.0,,71.11705848080001,False
+OpenBioLLM-8B-ZeroShot,3,,,1.0,,71.11705872259999,False
+BioMistral-7B-ZeroShot,3,,,0.3333333333333333,,71.11705888039997,False

@@ -4,6 +4,9 @@
 # Knowledge Graph
 neo4j
 
+# Environment Variables
+python-dotenv
+
 # Biomedical Data Sources
 biopython
 civicpy
@@ -16,6 +19,7 @@ rdkit
 # Natural Language Processing
 spacy
 scispacy
+
 # Biomedical NER model (install separately):
 # pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bionlp13cg_md-0.5.4.tar.gz
 sentence-transformers
@@ -25,10 +29,14 @@ thefuzz
 networkx
 node2vec
 gensim
+pykeen
 
 # Data Handling
 pandas
 requests
+transformers
+accelerate
 
 # LLM Interface
 ollama
+huggingface_hub

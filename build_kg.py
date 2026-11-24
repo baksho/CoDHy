@@ -1,6 +1,5 @@
 import ast
 from neo4j import GraphDatabase
-from google.colab import userdata
 from collections import defaultdict
 from fetch_data_util import fetch_sider_data
 

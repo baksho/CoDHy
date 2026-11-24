@@ -1,0 +1,2 @@
+note
+"no repeat_idx with >=2 repeats found — re-run run_judge_panel(..., n_repeats>=2) to compute this."

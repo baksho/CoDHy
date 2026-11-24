@@ -1,0 +1,9 @@
+,novelty,novelty,biological_plausibility,biological_plausibility,evidence_grounding,evidence_grounding,mechanistic_clarity,mechanistic_clarity,specificity,specificity,testability,testability
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+judge_name,,,,,,,,,,,,
+BioMistral-7B,1.0,0.0,2.62,0.5,2.88,0.34,2.69,0.48,3.0,0.0,3.0,0.0
+DeepSeek-R1-8B-Distill,2.53,0.7,3.32,0.67,1.95,0.78,2.74,0.81,2.79,0.71,3.21,0.85
+JSL-MedLlama-3-8B-v9,1.62,1.36,3.5,1.59,3.38,1.63,3.56,1.59,3.94,1.77,3.94,1.77
+MedGemma-1.5-4B,1.0,0.0,2.0,1.03,1.38,0.5,2.38,1.45,2.5,1.55,2.5,1.55
+OpenBioLLM-8B,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+Qwen3-8B,2.31,0.48,3.12,0.72,1.69,0.7,2.5,0.89,2.94,0.77,3.12,0.81

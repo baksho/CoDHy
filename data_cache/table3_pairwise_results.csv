@@ -1,0 +1,6 @@
+system_a,system_b,n_comparisons,n_failed,win_pct,tie_pct,loss_pct
+CoDHy-Full,BioMistral-7B-ZeroShot,15,0,13.3,0.0,86.7
+CoDHy-Full,JSL-MedLlama-3-8B-v9-ZeroShot,15,0,60.0,0.0,40.0
+CoDHy-Full,MedGemma-1.5-4B-ZeroShot,15,0,53.3,0.0,46.7
+CoDHy-Full,OpenBioLLM-8B-ZeroShot,15,0,66.7,6.7,26.7
+CoDHy-Full,Qwen3-8B-ZeroShot,15,0,46.7,0.0,53.3

@@ -1,0 +1,7 @@
+judge_name,n_calls,n_failed,failure_rate
+BioMistral-7B,16,0,0.0
+DeepSeek-R1-8B-Distill,19,0,0.0
+JSL-MedLlama-3-8B-v9,16,0,0.0
+MedGemma-1.5-4B,16,0,0.0
+OpenBioLLM-8B,16,0,0.0
+Qwen3-8B,16,0,0.0

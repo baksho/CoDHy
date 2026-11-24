@@ -6,9 +6,6 @@ import zipfile
 import urllib.parse
 import pandas as pd
 from rdkit import Chem
-from civicpy import civic
-from reactome2py import analysis
-from chembl_webresource_client.new_client import new_client
 
 """### **Reactome Pathways Database**"""
 
@@ -17,6 +14,8 @@ def fetch_reactome_pathways(genes):
     Fetches Reactome pathways using the Analysis Service.
     FIXED: Decodes the token and uses the correct CSV download endpoint.
     """
+    from reactome2py import analysis
+    
     print(f"--- Reactome: Analysis Service for {len(genes)} genes ---")
 
     # 1. Prepare Payload
@@ -117,6 +116,8 @@ def fetch_civic_database(genes):
     Fetches rich clinical data from CIViC to populate the refined schema:
     Gene -> Variant -> Disease -> Drug -> Evidence (PMID)
     """
+    from civicpy import civic
+
     print(f"--- CIViC (Rich Data): Fetching for {len(genes)} genes ---")
     data = []
 
@@ -392,6 +393,8 @@ def fetch_chembl_data(genes):
     Fetches drug candidates and properties from ChEMBL.
     Includes: Mechanism of Action, Toxicity flags (Max Phase).
     """
+    from chembl_webresource_client.new_client import new_client
+
     print(f"--- ChEMBL: Fetching compounds and Trial IDs for {len(genes)} targets ---")
     data = []
 

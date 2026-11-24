@@ -1,0 +1,54 @@
+{
+  "egfr::breast invasive carcinoma": {
+    "mitoxantrone + sorafenib": {
+      "original_combination": "sorafenib + mitoxantrone",
+      "reason": "safety_score=2 (<=2, likely withdrawn/unsafe drug)",
+      "score": 2,
+      "rejected_at": "2026-07-27T09:36:42.869674+00:00"
+    },
+    "aurka inhibitor + sorafenib": {
+      "original_combination": "sorafenib + AURKA inhibitor",
+      "reason": "weak evidence: literature_support_score=0.00, biological_plausibility_score=0.00 (both < 0.4)",
+      "score": 8,
+      "rejected_at": "2026-07-27T09:36:42.876346+00:00"
+    },
+    "cck-81 + sorafenib": {
+      "original_combination": "sorafenib + CCK-81",
+      "reason": "weak evidence: literature_support_score=0.00, biological_plausibility_score=0.00 (both < 0.4)",
+      "score": 8,
+      "rejected_at": "2026-07-27T09:51:12.391437+00:00"
+    },
+    "hcc1143 + mitoxantrone": {
+      "original_combination": "mitoxantrone + HCC1143",
+      "reason": "safety_score=2 (<=2, likely withdrawn/unsafe drug)",
+      "score": 2,
+      "rejected_at": "2026-07-27T09:51:12.398513+00:00"
+    },
+    "aurka inhibitor + egfr": {
+      "original_combination": "AURKA inhibitor + EGFR",
+      "reason": "weak evidence: literature_support_score=0.00, biological_plausibility_score=0.00 (both < 0.4)",
+      "score": 8,
+      "rejected_at": "2026-07-27T09:51:12.403911+00:00"
+    },
+    "aurka inhibitor + egfr inhibitor": {
+      "original_combination": "AURKA inhibitor + EGFR inhibitor",
+      "reason": "weak evidence: literature_support_score=0.00, biological_plausibility_score=0.00 (both < 0.4)",
+      "score": 8,
+      "rejected_at": "2026-08-16T22:58:06.544779+00:00"
+    },
+    "egfr inhibitor + k806e inhibitor": {
+      "original_combination": "EGFR inhibitor + K806E inhibitor",
+      "reason": "weak evidence: literature_support_score=0.00, biological_plausibility_score=0.00 (both < 0.4)",
+      "score": 8,
+      "rejected_at": "2026-08-16T22:58:06.555853+00:00"
+    }
+  },
+  "egfr::glioblastoma multiforme": {
+    "ca9-22 + selumetinib": {
+      "original_combination": "Selumetinib + Ca9-22",
+      "reason": "weak evidence: literature_support_score=0.00, biological_plausibility_score=0.00 (both < 0.4)",
+      "score": 8,
+      "rejected_at": "2026-11-13T11:24:51.480757+00:00"
+    }
+  }
+}
